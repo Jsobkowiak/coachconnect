@@ -1,0 +1,46 @@
+name: CI
+on:
+  push:
+    branches: [main, 'codex/**']
+    tags: ['v*']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  application:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: training-web/package-lock.json
+      - run: dotnet build CoachConnect.sln --configuration Release
+      - run: npm --prefix training-web ci --no-audit --no-fund
+      - run: npm --prefix training-web run build
+      - name: Validate Compose without local secrets
+        run: docker compose --env-file /dev/null --profile training --profile catalog --profile etl --profile analytics config --quiet
+  catalogue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install uv==0.13.0
+      - run: uv sync --locked
+        working-directory: exercise-service
+      - run: uv run pytest -m 'not integration'
+        working-directory: exercise-service
+  containers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -f training-service/Dockerfile -t coachconnect-training:ci .
+      - run: docker build -t coachconnect-exercises:ci exercise-service

@@ -1,0 +1,4806 @@
+{
+  "version": "2026-10-17.1",
+  "authored_on": "2026-10-11",
+  "entries": [
+    {
+      "key": "bodyweight-squat",
+      "reference_key": "free-exercise-db:Bodyweight_Squat",
+      "reference_hash": "e7d734dfe415901b1114581046b48e310410a5be190e2ba5be8afeb855cf73db",
+      "data": {
+        "name": "Squat au poids du corps",
+        "language": "fr",
+        "aliases": [
+          "Bodyweight Squat"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "glutes",
+          "hamstrings"
+        ],
+        "instructions": [
+          "Place les pieds à une largeur confortable, pointes légèrement ouvertes.",
+          "Fléchis hanches et genoux en gardant les pieds entièrement au sol.",
+          "Descends aussi bas que tu peux maintenir le tronc stable et les genoux dans l’axe des pieds.",
+          "Repousse le sol pour revenir debout."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Flexion des jambes sans charge, utile en échauffement et en travail de base.",
+        "common_mistakes": [
+          "Décoller les talons.",
+          "Laisser les genoux s’effondrer vers l’intérieur."
+        ],
+        "required_equipment": [
+          "Aucun"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "42abf612317b19c801271f03f4049607efa9170de92f687e88b19148ddbf2b43.png"
+      ]
+    },
+    {
+      "key": "barbell-squat",
+      "reference_key": "free-exercise-db:Barbell_Squat",
+      "reference_hash": "9391afd95e9cde046b62ceaf25fd6aa3d22d51161e71baf9c22a5575a6b27657",
+      "data": {
+        "name": "Squat arrière à la barre",
+        "language": "fr",
+        "aliases": [
+          "Barbell Squat"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "glutes",
+          "hamstrings",
+          "lower_back"
+        ],
+        "instructions": [
+          "Place la barre sur le haut du dos et sors du rack avec le tronc gainé.",
+          "Stabilise les pieds puis fléchis hanches et genoux ensemble.",
+          "Descends en gardant la barre au-dessus du milieu des pieds.",
+          "Pousse dans le sol pour remonter sans relâcher le dos."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Squat avec la barre posée sur le haut du dos.",
+        "common_mistakes": [
+          "Poser la barre sur les cervicales.",
+          "Remonter les hanches bien avant les épaules."
+        ],
+        "required_equipment": [
+          "Barre",
+          "rack et sécurités"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "3b9e762bfb6f7d31deac166e37d0a59385e739ebcc92021ce713b19d8583ed67.png"
+      ]
+    },
+    {
+      "key": "front-barbell-squat",
+      "reference_key": "free-exercise-db:Front_Barbell_Squat",
+      "reference_hash": "65db90efdb7269ac0d3061a523f3b18870e3474942d1296cd628522cca3417b3",
+      "data": {
+        "name": "Squat avant à la barre",
+        "language": "fr",
+        "aliases": [
+          "Front Barbell Squat"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "glutes",
+          "hamstrings"
+        ],
+        "instructions": [
+          "Pose la barre sur l’avant des épaules et maintiens les coudes relevés, avec une prise croisée si nécessaire.",
+          "Fléchis les jambes en gardant la poitrine haute.",
+          "Conserve les talons au sol et les genoux dans l’axe des pieds.",
+          "Remonte en maintenant la barre sur les épaules."
+        ],
+        "level": "expert",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Squat avec la charge portée devant les épaules.",
+        "common_mistakes": [
+          "Porter toute la charge dans les poignets.",
+          "Laisser tomber les coudes à la descente."
+        ],
+        "required_equipment": [
+          "Barre et rack"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "86a0927a15841977ed0de988f70245a296bc25645e90c6be45b6909a9ee28d84.png"
+      ]
+    },
+    {
+      "key": "goblet-squat",
+      "reference_key": "free-exercise-db:Goblet_Squat",
+      "reference_hash": "69aa6a5db046682cda9bded778ab8bf556ffd5ac1014ac3306757765d8d4ae33",
+      "data": {
+        "name": "Squat goblet avec kettlebell",
+        "language": "fr",
+        "aliases": [
+          "Goblet Squat"
+        ],
+        "category": "strength",
+        "equipment": "kettlebells",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "glutes",
+          "hamstrings",
+          "shoulders"
+        ],
+        "instructions": [
+          "Tiens la kettlebell par les côtés de la poignée contre la poitrine.",
+          "Ouvre légèrement les pieds et fléchis les jambes.",
+          "Descends entre les hanches en gardant le tronc stable.",
+          "Repousse le sol et reviens debout sans éloigner la kettlebell."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Squat avec une kettlebell tenue devant la poitrine.",
+        "common_mistakes": [
+          "Éloigner la charge du corps.",
+          "Décoller les talons pour gagner de la profondeur."
+        ],
+        "required_equipment": [
+          "Une kettlebell"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "3bb5416866d0d9199f1ce12c1444d5c9f4acc49198238557e2b756e22258a142.png"
+      ]
+    },
+    {
+      "key": "dumbbell-squat",
+      "reference_key": "free-exercise-db:Dumbbell_Squat",
+      "reference_hash": "c634c321bbdcea6c5290238f051c7762b4d67e25a769133fbc8261865948934f",
+      "data": {
+        "name": "Squat avec haltères le long du corps",
+        "language": "fr",
+        "aliases": [
+          "Dumbbell Squat"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "glutes",
+          "hamstrings",
+          "lower_back"
+        ],
+        "instructions": [
+          "Tiens les haltères le long du corps, bras allongés.",
+          "Écarte les pieds à une largeur confortable et gaine le tronc.",
+          "Descends en pliant les genoux et les hanches, sans balancer les haltères.",
+          "Remonte en gardant les appuis stables."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Squat chargé avec un haltère dans chaque main.",
+        "common_mistakes": [
+          "Transformer le mouvement en soulevé de terre.",
+          "Balancer les charges devant les genoux."
+        ],
+        "required_equipment": [
+          "Deux haltères"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "191172aa31ca6d6a2fee996c3844132b0aad5091f27a0ef3dfaa8116b4b932d9.png"
+      ]
+    },
+    {
+      "key": "leg-press",
+      "reference_key": "free-exercise-db:Leg_Press",
+      "reference_hash": "2c7c47e842c95b0ba482fd67637128a4856473cb9b94366a288b112f123d9479",
+      "data": {
+        "name": "Presse à cuisses",
+        "language": "fr",
+        "aliases": [
+          "Leg Press"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "glutes",
+          "hamstrings"
+        ],
+        "instructions": [
+          "Règle le siège et place les pieds sur la plateforme.",
+          "Déverrouille les sécurités puis fléchis les genoux sans décoller le bassin.",
+          "Repousse la plateforme en gardant les genoux dans l’axe des pieds.",
+          "Arrête l’extension avant de verrouiller brutalement les genoux."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Extension des jambes sur une presse avec le dos soutenu.",
+        "common_mistakes": [
+          "Décoller le bas du dos à la descente.",
+          "Réduire l’amplitude en chargeant trop lourd."
+        ],
+        "required_equipment": [
+          "Presse à cuisses"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "7b52b1ab2a7d92945c511b2fc5481d577e4fe0af6f2f04118cb7d883280f0bad.png"
+      ]
+    },
+    {
+      "key": "hack-squat",
+      "reference_key": "free-exercise-db:Hack_Squat",
+      "reference_hash": "afb08c670b7948148fd837268e24b1401d812bf469dd46df8ce6855c83e0137b",
+      "data": {
+        "name": "Squat à la machine hack",
+        "language": "fr",
+        "aliases": [
+          "Hack Squat"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "glutes",
+          "hamstrings"
+        ],
+        "instructions": [
+          "Place le dos contre le dossier et les épaules sous les appuis.",
+          "Installe les pieds sur la plateforme puis libère les sécurités.",
+          "Descends en gardant le bassin et le dos contre les supports.",
+          "Pousse sur toute la plante des pieds pour remonter."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Squat guidé avec le dos et les épaules soutenus.",
+        "common_mistakes": [
+          "Décoller le bassin du dossier.",
+          "Bloquer les genoux en fin de poussée."
+        ],
+        "required_equipment": [
+          "Machine hack squat"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "3ac2d1d36ed81da18f14cffc4c42d27db477e43f01274edec6e462696d9376f1.png"
+      ]
+    },
+    {
+      "key": "barbell-deadlift",
+      "reference_key": "free-exercise-db:Barbell_Deadlift",
+      "reference_hash": "07d29226eb264d68a0830c2ab8459d21fb2ee1929545ce6c912cb78278773710",
+      "data": {
+        "name": "Soulevé de terre conventionnel",
+        "language": "fr",
+        "aliases": [
+          "Barbell Deadlift"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "lower_back"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "forearms",
+          "glutes",
+          "hamstrings",
+          "lats",
+          "middle_back",
+          "quadriceps",
+          "traps"
+        ],
+        "instructions": [
+          "Place la barre au-dessus du milieu des pieds et saisis-la juste à l’extérieur des jambes.",
+          "Gaîne le tronc et rapproche les tibias sans déplacer la barre.",
+          "Pousse dans le sol puis termine en étendant les hanches, barre proche du corps.",
+          "Ramène les hanches en arrière puis plie les genoux pour reposer la barre."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Départ au sol avec une barre près des jambes.",
+        "common_mistakes": [
+          "Arrondir le dos au décollage.",
+          "Se pencher en arrière en haut du mouvement."
+        ],
+        "required_equipment": [
+          "Barre et disques"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "41ea67a391e4e73d13cae647b2d7acbe917e8531bce83e78712341c27f772e42.png"
+      ]
+    },
+    {
+      "key": "romanian-deadlift",
+      "reference_key": "free-exercise-db:Romanian_Deadlift",
+      "reference_hash": "4249eb657156d720059f8836df4f9d386f2ad8eab0e1a3fab3d7c441554d4044",
+      "data": {
+        "name": "Soulevé de terre roumain",
+        "language": "fr",
+        "aliases": [
+          "Romanian Deadlift"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "hamstrings"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "glutes",
+          "lower_back"
+        ],
+        "instructions": [
+          "Pars debout avec la barre devant les cuisses.",
+          "Garde les genoux légèrement fléchis et pousse les hanches en arrière.",
+          "Fais glisser la barre près des jambes jusqu’à la limite où le dos reste stable.",
+          "Ramène les hanches vers l’avant pour revenir debout."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Charnière de hanche avec les genoux légèrement fléchis.",
+        "common_mistakes": [
+          "Plier beaucoup les genoux comme dans un squat.",
+          "Chercher le sol en arrondissant le dos."
+        ],
+        "required_equipment": [
+          "Barre"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "04c711a19c19276258f16f1e53181d688afbfa811c6dfd5e727343dbb9548c6b.png"
+      ]
+    },
+    {
+      "key": "sumo-deadlift",
+      "reference_key": "free-exercise-db:Sumo_Deadlift",
+      "reference_hash": "b296cb088b45d3e6cdd5e2addadf1d837ad7fdcee06134db6d82cffb31104074",
+      "data": {
+        "name": "Soulevé de terre sumo",
+        "language": "fr",
+        "aliases": [
+          "Sumo Deadlift"
+        ],
+        "category": "powerlifting",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "hamstrings"
+        ],
+        "secondary_muscles": [
+          "adductors",
+          "forearms",
+          "glutes",
+          "lower_back",
+          "middle_back",
+          "quadriceps",
+          "traps"
+        ],
+        "instructions": [
+          "Place les pieds plus larges que les épaules, pointes ouvertes, barre près des tibias.",
+          "Saisis la barre entre les jambes et gaine le tronc.",
+          "Pousse les pieds dans le sol en gardant les genoux ouverts.",
+          "Termine debout puis repose la charge sous contrôle."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Soulevé de terre en stance large, mains entre les jambes.",
+        "common_mistakes": [
+          "Laisser les genoux rentrer vers l’intérieur.",
+          "Éloigner la barre du corps."
+        ],
+        "required_equipment": [
+          "Barre et disques"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "ea27d6a2f17d0faefd49c198396369c2a9483bcecaf79ef90ce946216f28b991.png"
+      ]
+    },
+    {
+      "key": "barbell-hip-thrust",
+      "reference_key": "free-exercise-db:Barbell_Hip_Thrust",
+      "reference_hash": "3c659c1a68497c673f20b0a41241eb9bf70288b18f8997a60ca9c25e5097b8bd",
+      "data": {
+        "name": "Hip thrust à la barre",
+        "language": "fr",
+        "aliases": [
+          "Barbell Hip Thrust"
+        ],
+        "category": "powerlifting",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "glutes"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "hamstrings"
+        ],
+        "instructions": [
+          "Pose le haut du dos contre un banc stable et place la barre protégée au pli des hanches.",
+          "Installe les pieds pour garder les tibias proches de la verticale en haut.",
+          "Pousse les hanches vers le plafond en maintenant le menton légèrement rentré.",
+          "Redescends le bassin sans déplacer les appuis."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Extension des hanches avec le haut du dos soutenu sur un banc.",
+        "common_mistakes": [
+          "Cambrer le dos pour monter plus haut.",
+          "Poser le banc sous la nuque."
+        ],
+        "required_equipment": [
+          "Barre",
+          "protection et banc"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "cbc8e0f9602e85a72c64f946ed5c8745ae5c991096b42e155f7d5338d56ceb8c.png"
+      ]
+    },
+    {
+      "key": "butt-lift-bridge",
+      "reference_key": "free-exercise-db:Butt_Lift_Bridge",
+      "reference_hash": "011e8e5a0ec6d3b5e14d19e43afbf615026727fc7fef5779ded7ab10679d79a5",
+      "data": {
+        "name": "Pont fessier au sol",
+        "language": "fr",
+        "aliases": [
+          "Butt Lift (Bridge)"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "glutes"
+        ],
+        "secondary_muscles": [
+          "hamstrings"
+        ],
+        "instructions": [
+          "Allonge-toi sur le dos, genoux fléchis et pieds au sol.",
+          "Gaine légèrement le ventre et pousse dans les pieds.",
+          "Soulève le bassin jusqu’à aligner épaules, hanches et genoux.",
+          "Redescends lentement sans rebond."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Extension des hanches au poids du corps, dos au sol.",
+        "common_mistakes": [
+          "Pousser uniquement sur les pointes des pieds.",
+          "Finir en hyperextension du bas du dos."
+        ],
+        "required_equipment": [
+          "Tapis facultatif"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "a51a485321f8427e4ab7a96520c5e03eacf86bdff670c2055c3ca8c5f511b5ce.png"
+      ]
+    },
+    {
+      "key": "dumbbell-lunges",
+      "reference_key": "free-exercise-db:Dumbbell_Lunges",
+      "reference_hash": "cc8a0b3cff5275194b90d2d313af3b0eca5661b105f5dd34d103e07d9128d497",
+      "data": {
+        "name": "Fentes avant avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Dumbbell Lunges"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "glutes",
+          "hamstrings"
+        ],
+        "instructions": [
+          "Tiens les haltères de chaque côté du corps et pars debout.",
+          "Avance un pied assez loin pour pouvoir fléchir les deux jambes.",
+          "Abaisse le genou arrière sans heurter le sol.",
+          "Pousse dans le pied avant pour revenir debout puis change de côté."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Fente avec retour du pied avant à la position de départ.",
+        "common_mistakes": [
+          "Faire un pas trop court.",
+          "Laisser le genou avant dériver vers l’intérieur."
+        ],
+        "required_equipment": [
+          "Deux haltères"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "a43187c5bc94ade29ba9c84b59695aa8fd9ef391b3abae424fdb8094498a4737.png"
+      ]
+    },
+    {
+      "key": "one-leg-barbell-squat",
+      "reference_key": "free-exercise-db:One_Leg_Barbell_Squat",
+      "reference_hash": "5e5e55b59270ee428c56ed096b39096beb23fc976c89398286cbd69a8f95bca2",
+      "data": {
+        "name": "Squat bulgare à la barre",
+        "language": "fr",
+        "aliases": [
+          "One Leg Barbell Squat"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "glutes",
+          "hamstrings"
+        ],
+        "instructions": [
+          "Pose la barre sur le haut du dos et le dessus du pied arrière sur un banc stable.",
+          "Place le pied avant suffisamment loin pour garder un appui solide.",
+          "Descends en fléchissant la jambe avant, bassin orienté vers l’avant.",
+          "Pousse dans le pied avant pour remonter."
+        ],
+        "level": "expert",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Fente stationnaire avec le pied arrière surélevé.",
+        "common_mistakes": [
+          "Utiliser la jambe arrière comme jambe motrice.",
+          "Choisir un banc trop haut pour contrôler le bassin."
+        ],
+        "required_equipment": [
+          "Barre",
+          "rack et banc"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "cc3d4a74795f42096ab6b2e33582ed5a0b89f344d4f58581264746b4ddc64cae.png"
+      ]
+    },
+    {
+      "key": "dumbbell-step-ups",
+      "reference_key": "free-exercise-db:Dumbbell_Step_Ups",
+      "reference_hash": "a602e4e86df684fd7d4c0b7cd8be04e066d9c7dbbb3762e3d98db316e21b6468",
+      "data": {
+        "name": "Montées sur banc avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Dumbbell Step Ups"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "glutes",
+          "hamstrings"
+        ],
+        "instructions": [
+          "Place un pied entièrement sur un banc stable, haltères le long du corps.",
+          "Pousse dans ce pied pour monter sur le banc.",
+          "Rejoins la position debout sans pousser fortement avec la jambe au sol.",
+          "Redescends lentement et alterne les jambes."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Montée sur un support avec une jambe dominante.",
+        "common_mistakes": [
+          "Sauter depuis le pied resté au sol.",
+          "Poser seulement l’avant du pied sur le support."
+        ],
+        "required_equipment": [
+          "Deux haltères et banc stable"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "7257291a1be7c097fd08f455f8ac1e7e98e38958332c83fc1327ad862775fb36.png"
+      ]
+    },
+    {
+      "key": "leg-extensions",
+      "reference_key": "free-exercise-db:Leg_Extensions",
+      "reference_hash": "81791e02f9fd6f8337dff9258c55ce57330bcb289fa8e322d429ad68533e1c74",
+      "data": {
+        "name": "Extension des jambes à la machine",
+        "language": "fr",
+        "aliases": [
+          "Leg Extensions"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Règle le siège pour aligner les genoux avec l’axe de la machine.",
+          "Place le coussin contre le bas des tibias et garde le dos soutenu.",
+          "Déplie les genoux sans donner d’élan.",
+          "Redescends lentement jusqu’à la position initiale."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Extension du genou pour travailler les quadriceps.",
+        "common_mistakes": [
+          "Décoller le bassin du siège.",
+          "Claquer les jambes en extension."
+        ],
+        "required_equipment": [
+          "Machine leg extension"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "b7a068ac05ffd0367073d3b7dff1ab666f7d24149eedfeeecea2fc14fedab94b.png"
+      ]
+    },
+    {
+      "key": "lying-leg-curls",
+      "reference_key": "free-exercise-db:Lying_Leg_Curls",
+      "reference_hash": "2b7e93f7983cbd9a4e7e8b389d72d93ada5d98d8af7415130f939b3d60d1522a",
+      "data": {
+        "name": "Leg curl allongé",
+        "language": "fr",
+        "aliases": [
+          "Lying Leg Curls"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "hamstrings"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Allonge-toi sur le ventre et règle le coussin au-dessus des talons.",
+          "Garde le bassin contre le support et tiens les poignées.",
+          "Fléchis les genoux pour rapprocher les talons des fessiers.",
+          "Déplie lentement sans perdre la position du bassin."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Flexion des genoux en position ventrale.",
+        "common_mistakes": [
+          "Soulever les hanches.",
+          "Donner un coup de reins pour démarrer."
+        ],
+        "required_equipment": [
+          "Machine leg curl allongé"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "e2db0f104dd744f364db344cf5dc44cb981aa310b872384245da8acb4d489e7a.png"
+      ]
+    },
+    {
+      "key": "seated-leg-curl",
+      "reference_key": "free-exercise-db:Seated_Leg_Curl",
+      "reference_hash": "2ed47a061bf77d814fbb72c480da28b8cd84826dd35b62f854e093bc8125b258",
+      "data": {
+        "name": "Leg curl assis",
+        "language": "fr",
+        "aliases": [
+          "Seated Leg Curl"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "hamstrings"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Règle le dossier, le coussin des cuisses et l’appui des chevilles.",
+          "Maintiens le dos contre le dossier.",
+          "Ramène les talons sous le siège en pliant les genoux.",
+          "Reviens lentement sans soulever les cuisses."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Flexion des genoux avec le bassin soutenu.",
+        "common_mistakes": [
+          "Laisser les cuisses quitter le coussin.",
+          "Accélérer la phase de retour."
+        ],
+        "required_equipment": [
+          "Machine leg curl assis"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "cb303a3fe46cc64b185d146f1a2a4bf231fc307e53d972d6d77b004e7600a01f.png"
+      ]
+    },
+    {
+      "key": "standing-calf-raises",
+      "reference_key": "free-exercise-db:Standing_Calf_Raises",
+      "reference_hash": "cf81e6435f2425af957b27e057b2aaae61056fac8b2829823672025982e81cd9",
+      "data": {
+        "name": "Mollets debout à la machine",
+        "language": "fr",
+        "aliases": [
+          "Standing Calf Raises"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "calves"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Place les épaules sous les supports et l’avant des pieds sur la marche.",
+          "Abaisse les talons sous contrôle, sans relâcher les appuis.",
+          "Monte sur la pointe des pieds aussi haut que possible.",
+          "Marque un bref arrêt puis redescends lentement."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Élévation des talons avec les genoux presque tendus.",
+        "common_mistakes": [
+          "Rebondir en bas du mouvement.",
+          "Fléchir les genoux pour soulever la charge."
+        ],
+        "required_equipment": [
+          "Machine à mollets"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "e1b2f79ec247776bc8e07af7ba34b5c1addff59179aa6aa8860fcdc8f05a39db.png"
+      ]
+    },
+    {
+      "key": "seated-calf-raise",
+      "reference_key": "free-exercise-db:Seated_Calf_Raise",
+      "reference_hash": "a9085b94fc0dd1b8ba279575574f5a3fb840e544e9942c6b583b5fa65b32c169",
+      "data": {
+        "name": "Mollets assis à la machine",
+        "language": "fr",
+        "aliases": [
+          "Seated Calf Raise"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "calves"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Place l’avant des pieds sur la plateforme et les cuisses sous le coussin.",
+          "Déverrouille le support en montant les talons.",
+          "Abaisse puis relève les talons en gardant les genoux stables.",
+          "Repose la sécurité une fois la série terminée."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Élévation des talons avec les genoux fléchis.",
+        "common_mistakes": [
+          "Utiliser un rebond rapide.",
+          "Déplacer les genoux au lieu des chevilles."
+        ],
+        "required_equipment": [
+          "Machine à mollets assis"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "f372968c75501d560e5cb6bc548026935d9c2d66f6503066bde7c091e3e885eb.png"
+      ]
+    },
+    {
+      "key": "barbell-bench-press-medium-grip",
+      "reference_key": "free-exercise-db:Barbell_Bench_Press_-_Medium_Grip",
+      "reference_hash": "91581280362ed73fd95fb1d979022f4368e2bcb6a41a52ee63e44183bcd5ca94",
+      "data": {
+        "name": "Développé couché à la barre",
+        "language": "fr",
+        "aliases": [
+          "Barbell Bench Press - Medium Grip"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "chest"
+        ],
+        "secondary_muscles": [
+          "shoulders",
+          "triceps"
+        ],
+        "instructions": [
+          "Allonge-toi sur le banc, pieds stables et omoplates rapprochées.",
+          "Saisis la barre un peu plus large que les épaules et dégage-la du rack.",
+          "Descends vers la poitrine avec les poignets alignés au-dessus des avant-bras.",
+          "Repousse la barre sans décoller les appuis."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Poussée horizontale à la barre sur banc plat.",
+        "common_mistakes": [
+          "Faire rebondir la barre sur le thorax.",
+          "Laisser les poignets se plier fortement vers l’arrière."
+        ],
+        "required_equipment": [
+          "Barre",
+          "banc et sécurités"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "406ef516984cf1aa95bdf6efbc7e2763eafcbfa241241d0e51d153fd103bd612.png"
+      ]
+    },
+    {
+      "key": "dumbbell-bench-press",
+      "reference_key": "free-exercise-db:Dumbbell_Bench_Press",
+      "reference_hash": "66ab1e11f977b855ff90e3637b3633daedb33383e9d08b47b996441e81c8e2dd",
+      "data": {
+        "name": "Développé couché avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Dumbbell Bench Press"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "chest"
+        ],
+        "secondary_muscles": [
+          "shoulders",
+          "triceps"
+        ],
+        "instructions": [
+          "Allonge-toi sur un banc plat avec les haltères près de la poitrine.",
+          "Place les avant-bras sous les charges et stabilise les omoplates.",
+          "Pousse les haltères vers le haut sans les heurter.",
+          "Redescends avec contrôle en conservant des coudes légèrement ouverts."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Poussée horizontale avec deux charges indépendantes.",
+        "common_mistakes": [
+          "Cogner les haltères en haut.",
+          "Descendre plus bas que le contrôle des épaules ne le permet."
+        ],
+        "required_equipment": [
+          "Deux haltères et banc plat"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "1a1e6e7d7e98d67b4f3112d9b36ef04f350ac10148d7c5bc29cce62b12383b7d.png"
+      ]
+    },
+    {
+      "key": "incline-dumbbell-press",
+      "reference_key": "free-exercise-db:Incline_Dumbbell_Press",
+      "reference_hash": "790d8c4a2fa6a54ae8f592f175d1d8d1b227f966fd2e8618fbea709cf5b75262",
+      "data": {
+        "name": "Développé incliné avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Incline Dumbbell Press"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "chest"
+        ],
+        "secondary_muscles": [
+          "shoulders",
+          "triceps"
+        ],
+        "instructions": [
+          "Règle le banc sur une inclinaison modérée puis installe les haltères.",
+          "Maintiens les pieds au sol et le dos soutenu.",
+          "Pousse les charges au-dessus de la poitrine.",
+          "Redescends les haltères de part et d’autre du haut du torse."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Développé sur banc incliné pour le haut des pectoraux.",
+        "common_mistakes": [
+          "Régler le banc presque vertical et changer de mouvement.",
+          "Laisser les épaules partir vers l’avant."
+        ],
+        "required_equipment": [
+          "Deux haltères et banc incliné"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "53ceeba8b049db43f29350fd168d5265cd63f44ca4c01f178d9e599902047879.png"
+      ]
+    },
+    {
+      "key": "dumbbell-floor-press",
+      "reference_key": "free-exercise-db:Dumbbell_Floor_Press",
+      "reference_hash": "5adf807699e15ab64622a2faf1ca867d28c9ad2b5fd9cb983038c60330035a8f",
+      "data": {
+        "name": "Développé avec haltères au sol",
+        "language": "fr",
+        "aliases": [
+          "Dumbbell Floor Press"
+        ],
+        "category": "powerlifting",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "triceps"
+        ],
+        "secondary_muscles": [
+          "chest",
+          "shoulders"
+        ],
+        "instructions": [
+          "Allonge-toi au sol avec les genoux fléchis et les haltères au-dessus de la poitrine.",
+          "Descends jusqu’à ce que les bras touchent doucement le sol.",
+          "Garde les avant-bras verticaux puis pousse les haltères.",
+          "Ramène les bras au sol sans choc."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Développé dont l’amplitude est limitée par le sol.",
+        "common_mistakes": [
+          "Heurter le sol avec les coudes.",
+          "Ouvrir les bras à angle droit du torse."
+        ],
+        "required_equipment": [
+          "Deux haltères et tapis facultatif"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "38e559a358429d92a0d4764badaf26435eca85e44c0f0822cb8f3c8790eb1b64.png"
+      ]
+    },
+    {
+      "key": "pushups",
+      "reference_key": "free-exercise-db:Pushups",
+      "reference_hash": "15584d9f520128dc7df59aeede8fc039e29c3772790ffd8db883afcf1ad2356b",
+      "data": {
+        "name": "Pompes classiques",
+        "language": "fr",
+        "aliases": [
+          "Pushups"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "chest"
+        ],
+        "secondary_muscles": [
+          "shoulders",
+          "triceps"
+        ],
+        "instructions": [
+          "Place les mains un peu plus larges que les épaules et tends les jambes.",
+          "Gaine le ventre et les fessiers pour aligner tête, bassin et talons.",
+          "Plie les coudes pour descendre la poitrine vers le sol.",
+          "Repousse le sol sans laisser le bassin s’affaisser."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Poussée au sol avec le corps maintenu en bloc.",
+        "common_mistakes": [
+          "Creuser le bas du dos.",
+          "Avancer la tête au lieu de descendre la poitrine."
+        ],
+        "required_equipment": [
+          "Aucun"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "9bdab5a9c9ebf83457d3dbf14980302284ff30d13a117843ef9cd0bba1722fd5.png"
+      ]
+    },
+    {
+      "key": "incline-push-up",
+      "reference_key": "free-exercise-db:Incline_Push-Up",
+      "reference_hash": "d7bb40281190f64f0ec70ac97fd066b124df383877d5889868806a6e5cbcde3d",
+      "data": {
+        "name": "Pompes mains surélevées",
+        "language": "fr",
+        "aliases": [
+          "Incline Push-Up"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "chest"
+        ],
+        "secondary_muscles": [
+          "shoulders",
+          "triceps"
+        ],
+        "instructions": [
+          "Place les mains sur un banc stable et recule les pieds.",
+          "Aligne le corps en gardant le bassin gainé.",
+          "Descends la poitrine vers le support en pliant les coudes.",
+          "Repousse le banc pour revenir bras tendus."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Pompe facilitée avec les mains sur un support haut.",
+        "common_mistakes": [
+          "Choisir un support qui glisse.",
+          "Plier le corps au niveau des hanches."
+        ],
+        "required_equipment": [
+          "Banc ou support stable"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "e488d8971ea1e377454b2e84e48b09de60649d1d210273a56515bf85352c4336.png"
+      ]
+    },
+    {
+      "key": "cable-crossover",
+      "reference_key": "free-exercise-db:Cable_Crossover",
+      "reference_hash": "e40f3f74863c69aab77f811f0c256e0f3019edc4d6bd260df2dc42aa3da49d6b",
+      "data": {
+        "name": "Écartés debout aux poulies hautes",
+        "language": "fr",
+        "aliases": [
+          "Cable Crossover"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "chest"
+        ],
+        "secondary_muscles": [
+          "shoulders"
+        ],
+        "instructions": [
+          "Saisis les poignées hautes et avance un pied pour stabiliser le corps.",
+          "Penche légèrement le buste en conservant les coudes un peu fléchis.",
+          "Ramène les mains devant le bas de la poitrine dans un arc contrôlé.",
+          "Rouvre les bras sans laisser les épaules partir en arrière."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Rapprochement des bras devant le torse depuis des poulies hautes.",
+        "common_mistakes": [
+          "Transformer l’écarté en développé avec les coudes.",
+          "Utiliser le balancement du buste."
+        ],
+        "required_equipment": [
+          "Deux poulies hautes et poignées"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "a4c8653a90e526bddef40b009ae09ad92cbba384279a9e1a784e45692a3134b9.png"
+      ]
+    },
+    {
+      "key": "butterfly",
+      "reference_key": "free-exercise-db:Butterfly",
+      "reference_hash": "a56a7ccfc624998ca98c0ab0e5dd4972f9cf69b6be8ecc6921975e34fbab7cf4",
+      "data": {
+        "name": "Écartés à la machine pec deck",
+        "language": "fr",
+        "aliases": [
+          "Butterfly"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "chest"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Règle le siège pour placer les poignées ou appuis à hauteur de poitrine.",
+          "Garde le dos contre le dossier et les épaules basses.",
+          "Rapproche les bras devant toi sans pousser la tête en avant.",
+          "Reviens lentement à une ouverture confortable."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Rapprochement des bras avec la trajectoire guidée par la machine.",
+        "common_mistakes": [
+          "Décoller le dos du dossier.",
+          "Forcer une ouverture excessive des épaules."
+        ],
+        "required_equipment": [
+          "Machine pec deck"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "9f9a372179baf7cd150ac7bf489aa21e716e0a56145fa2066dbc508cb942d18f.png"
+      ]
+    },
+    {
+      "key": "pullups",
+      "reference_key": "free-exercise-db:Pullups",
+      "reference_hash": "3e64762f9bccdbc24fd3d67507c590bd6f48f66d65a9a8ee6b553941ecc9dcb4",
+      "data": {
+        "name": "Tractions en pronation",
+        "language": "fr",
+        "aliases": [
+          "Pullups"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "lats"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "middle_back"
+        ],
+        "instructions": [
+          "Saisis une barre fixe en pronation et suspends-toi avec le tronc gainé.",
+          "Engage les épaules puis tire les coudes vers le bas.",
+          "Monte jusqu’à amener le menton au-dessus de la barre sans tendre le cou.",
+          "Redescends sous contrôle jusqu’aux bras allongés."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Traction stricte avec les paumes tournées vers l’avant.",
+        "common_mistakes": [
+          "Donner un coup de jambes pour monter.",
+          "Raccourcir systématiquement la descente."
+        ],
+        "required_equipment": [
+          "Barre de traction"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "00969d0083031d00ebc3fb9733258fcf7542d25d8ad5663b5b5b22efeb5c9f42.png"
+      ]
+    },
+    {
+      "key": "chin-up",
+      "reference_key": "free-exercise-db:Chin-Up",
+      "reference_hash": "5350b4b10ad0c11d4409907aeecc8ac4131fe7c2d80359344caaa4434af88d88",
+      "data": {
+        "name": "Tractions en supination",
+        "language": "fr",
+        "aliases": [
+          "Chin-Up"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "lats"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "forearms",
+          "middle_back"
+        ],
+        "instructions": [
+          "Saisis la barre en supination, mains proches de la largeur des épaules.",
+          "Gaine le corps et tire en ramenant les coudes vers les côtes.",
+          "Passe le menton au-dessus de la barre sans relever excessivement la tête.",
+          "Redescends lentement à la suspension."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Traction stricte avec les paumes tournées vers soi.",
+        "common_mistakes": [
+          "Balancer les jambes.",
+          "Tirer uniquement avec les poignets fléchis."
+        ],
+        "required_equipment": [
+          "Barre de traction"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "84d42f07b3d1e74a0c0205ca4b925100fa4b3a4df70ccc0361ff7387266fbc33.png"
+      ]
+    },
+    {
+      "key": "v-bar-pulldown",
+      "reference_key": "free-exercise-db:V-Bar_Pulldown",
+      "reference_hash": "103a98b90f3075d33718b02628b7d07f6e6c1a4eb3b9eb81ce10183729474b1f",
+      "data": {
+        "name": "Tirage vertical prise neutre serrée",
+        "language": "fr",
+        "aliases": [
+          "V-Bar Pulldown"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "lats"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "middle_back",
+          "shoulders"
+        ],
+        "instructions": [
+          "Règle le coussin pour stabiliser les cuisses et saisis la poignée en V.",
+          "Incline légèrement le buste sans creuser le dos.",
+          "Tire la poignée vers le haut de la poitrine en abaissant les coudes.",
+          "Laisse les bras remonter sous contrôle."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Tirage vertical avec les paumes face à face.",
+        "common_mistakes": [
+          "Tirer derrière la nuque.",
+          "Se pencher très loin en arrière pour terminer."
+        ],
+        "required_equipment": [
+          "Poulie haute et poignée en V"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "f51c18bb7fe485814c6929fa54465931cb2ab5d6308dbb2c80c12b54343f393d.png"
+      ]
+    },
+    {
+      "key": "underhand-cable-pulldowns",
+      "reference_key": "free-exercise-db:Underhand_Cable_Pulldowns",
+      "reference_hash": "a7381e91c27027f405914b6ec256bb26acd2b5695c51693e81764e18eb3814ba",
+      "data": {
+        "name": "Tirage vertical en supination",
+        "language": "fr",
+        "aliases": [
+          "Underhand Cable Pulldowns"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "lats"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "middle_back",
+          "shoulders"
+        ],
+        "instructions": [
+          "Assieds-toi sous la poulie haute et bloque les cuisses.",
+          "Prends la barre en supination à une largeur proche des épaules.",
+          "Tire vers le haut de la poitrine en gardant le buste stable.",
+          "Remonte lentement les bras sans lâcher la charge."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Tirage vertical avec les paumes vers soi.",
+        "common_mistakes": [
+          "Balancer le torse.",
+          "Ramener la barre derrière la tête."
+        ],
+        "required_equipment": [
+          "Poulie haute et barre"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "50b10c6a1e8000e84645b34ba6877386a13bb0887eddecd23391922cd344914a.png"
+      ]
+    },
+    {
+      "key": "seated-cable-rows",
+      "reference_key": "free-exercise-db:Seated_Cable_Rows",
+      "reference_hash": "e4ce0d83aa46e488e44bbb5c7dd8aa90a7d9ae00ce853a4a7c2eff1429c3f820",
+      "data": {
+        "name": "Tirage horizontal assis prise neutre",
+        "language": "fr",
+        "aliases": [
+          "Seated Cable Rows"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "middle_back"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "lats",
+          "shoulders"
+        ],
+        "instructions": [
+          "Assieds-toi face à la poulie, pieds en appui et genoux légèrement fléchis.",
+          "Saisis la poignée et garde le dos stable.",
+          "Tire vers le bas du ventre en ramenant les coudes près du corps.",
+          "Déplie les bras sans arrondir fortement le dos."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Tirage horizontal avec les pieds et le bassin stabilisés.",
+        "common_mistakes": [
+          "Se balancer d’avant en arrière.",
+          "Hausser les épaules au tirage."
+        ],
+        "required_equipment": [
+          "Poulie basse et poignée de tirage"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "0a574e35e45e84feb0957ea77b5b16b973ae5f83ece9707098afbe65faa38914.png"
+      ]
+    },
+    {
+      "key": "bent-over-barbell-row",
+      "reference_key": "free-exercise-db:Bent_Over_Barbell_Row",
+      "reference_hash": "b2ac3921e0a9a8bf188c8f683373c6a346511e9b9c18252759e40658a66e5f1d",
+      "data": {
+        "name": "Rowing penché à la barre",
+        "language": "fr",
+        "aliases": [
+          "Bent Over Barbell Row"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "middle_back"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "lats",
+          "shoulders"
+        ],
+        "instructions": [
+          "Saisis la barre en pronation et incline le buste depuis les hanches.",
+          "Garde les genoux légèrement fléchis et le dos stable.",
+          "Tire la barre vers le bas du torse en ramenant les coudes.",
+          "Redescends sans modifier l’inclinaison du buste."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Tirage horizontal avec le buste maintenu incliné.",
+        "common_mistakes": [
+          "Se redresser à chaque répétition.",
+          "Arrondir le dos sous la charge."
+        ],
+        "required_equipment": [
+          "Barre"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "b0307be671d3929d9a0087515430b109c78ff6dac33fb0406fdb04f822d1dd05.png"
+      ]
+    },
+    {
+      "key": "one-arm-dumbbell-row",
+      "reference_key": "free-exercise-db:One-Arm_Dumbbell_Row",
+      "reference_hash": "2ec6156fb9485aafb1ae5e5a376665decae8591b0b39d25deab5c2e191d93211",
+      "data": {
+        "name": "Rowing à un bras avec haltère sur banc",
+        "language": "fr",
+        "aliases": [
+          "One-Arm Dumbbell Row"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "middle_back"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "lats",
+          "shoulders"
+        ],
+        "instructions": [
+          "Place une main et un genou sur un banc, l’autre pied au sol.",
+          "Laisse l’haltère descendre sous l’épaule en gardant le dos stable.",
+          "Tire le coude vers la hanche sans tourner le buste.",
+          "Redescends lentement puis change de côté."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Tirage unilatéral avec un appui sur banc.",
+        "common_mistakes": [
+          "Ouvrir fortement le bassin pour soulever plus lourd.",
+          "Hausser l’épaule vers l’oreille."
+        ],
+        "required_equipment": [
+          "Un haltère et banc"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "d2c6b8712f09c09bb2f1fa9cef6521f53adfea96f651e6217df994dadf02fb34.png"
+      ]
+    },
+    {
+      "key": "inverted-row",
+      "reference_key": "free-exercise-db:Inverted_Row",
+      "reference_hash": "acf55643e3114f7bf9d7a87809be2f31547ea45df5f2306ffc2ec55e2ac6e7d3",
+      "data": {
+        "name": "Tractions horizontales sous barre",
+        "language": "fr",
+        "aliases": [
+          "Inverted Row"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "middle_back"
+        ],
+        "secondary_muscles": [
+          "lats"
+        ],
+        "instructions": [
+          "Installe-toi sous une barre fixe et saisis-la en pronation.",
+          "Allonge le corps en gardant les talons au sol.",
+          "Tire la poitrine vers la barre avec le bassin gainé.",
+          "Redescends en allongeant les bras sans casser l’alignement."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Tirage du corps vers une barre basse, pieds au sol.",
+        "common_mistakes": [
+          "Laisser les hanches tomber.",
+          "Chercher la barre avec le menton seulement."
+        ],
+        "required_equipment": [
+          "Barre fixe basse"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "e59646e20622faed34e86d184b4a07b64367fe6018a947d69330707aef837b65.png"
+      ]
+    },
+    {
+      "key": "straight-arm-pulldown",
+      "reference_key": "free-exercise-db:Straight-Arm_Pulldown",
+      "reference_hash": "468fea16a301cd5118729ae6de0294cb1dfd8fc35537ca7b177a7a1603e7f075",
+      "data": {
+        "name": "Tirage bras tendus à la poulie haute",
+        "language": "fr",
+        "aliases": [
+          "Straight-Arm Pulldown"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "lats"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Saisis la barre de la poulie haute et recule légèrement.",
+          "Incline un peu le buste et conserve une faible flexion des coudes.",
+          "Ramène la barre vers les cuisses en abaissant les épaules.",
+          "Laisse les bras remonter sans changer la position du tronc."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Abaissement des bras presque tendus pour solliciter les dorsaux.",
+        "common_mistakes": [
+          "Plier beaucoup les coudes comme lors d’un tirage vertical.",
+          "Cambrer le dos en fin de mouvement."
+        ],
+        "required_equipment": [
+          "Poulie haute et barre"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "5e41f053235331ff9e9373320b13f5a3eb3d0a0e55c2d1e883c06945c58d1546.png"
+      ]
+    },
+    {
+      "key": "face-pull",
+      "reference_key": "free-exercise-db:Face_Pull",
+      "reference_hash": "a234cfc40651f3b736c04dc8e825f8ee576b18f0de2fd3b2bf882b2815da5f09",
+      "data": {
+        "name": "Tirage à la corde vers le visage",
+        "language": "fr",
+        "aliases": [
+          "Face Pull"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "shoulders"
+        ],
+        "secondary_muscles": [
+          "middle_back"
+        ],
+        "instructions": [
+          "Place une corde sur une poulie à hauteur du visage.",
+          "Recule pour mettre le câble en tension, tronc stable.",
+          "Tire vers le visage en écartant les mains et les coudes.",
+          "Reviens lentement sans avancer les épaules."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Tirage haut avec ouverture des bras et rotation des épaules.",
+        "common_mistakes": [
+          "Tirer vers le ventre.",
+          "Utiliser une charge qui empêche d’ouvrir les mains."
+        ],
+        "required_equipment": [
+          "Poulie et corde"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "eec26efd6bea128619b01dfe7044b41196689e3057238cb2756193a5f2af9f41.png"
+      ]
+    },
+    {
+      "key": "dumbbell-shoulder-press",
+      "reference_key": "free-exercise-db:Dumbbell_Shoulder_Press",
+      "reference_hash": "97a0718ad9e669a568996085a3dea35445dccc65e8e0e830f0c775c97e225338",
+      "data": {
+        "name": "Développé épaules assis avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Dumbbell Shoulder Press"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "shoulders"
+        ],
+        "secondary_muscles": [
+          "triceps"
+        ],
+        "instructions": [
+          "Assieds-toi contre le dossier avec les haltères près des épaules.",
+          "Garde les pieds stables et les avant-bras sous les charges.",
+          "Pousse les haltères au-dessus de la tête sans creuser le dos.",
+          "Redescends à hauteur d’épaules avec contrôle."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Poussée verticale assise avec deux haltères.",
+        "common_mistakes": [
+          "Décoller le bassin du siège.",
+          "Transformer le mouvement en développé incliné."
+        ],
+        "required_equipment": [
+          "Deux haltères et banc avec dossier"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "df9ea1524ae71b5e5dea242b9a2ecff92579dc577bdf76991dc8a8465b77a166.png"
+      ]
+    },
+    {
+      "key": "arnold-dumbbell-press",
+      "reference_key": "free-exercise-db:Arnold_Dumbbell_Press",
+      "reference_hash": "1d3c999c6523893ea1e67e688c01eccddce8c017017e58286f6bd0efe05bdf9d",
+      "data": {
+        "name": "Développé Arnold assis",
+        "language": "fr",
+        "aliases": [
+          "Arnold Dumbbell Press"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "shoulders"
+        ],
+        "secondary_muscles": [
+          "triceps"
+        ],
+        "instructions": [
+          "Assieds-toi avec les haltères devant les épaules, paumes vers toi.",
+          "Ouvre les coudes et tourne progressivement les paumes en poussant.",
+          "Termine avec les haltères au-dessus des épaules.",
+          "Inverse le mouvement lentement pour revenir devant le torse."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Développé épaules avec rotation progressive des paumes.",
+        "common_mistakes": [
+          "Tourner brusquement les poignets.",
+          "Cambrer le dos pour finir la poussée."
+        ],
+        "required_equipment": [
+          "Deux haltères et banc"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "ad322c239620f82cb9a631b42c910d80ef5641b618ddfed78f7bcab70d2996eb.png"
+      ]
+    },
+    {
+      "key": "side-lateral-raise",
+      "reference_key": "free-exercise-db:Side_Lateral_Raise",
+      "reference_hash": "9336e783753e0239e0c097c0009e70f014909fecfd89c2320a6c681abbe44635",
+      "data": {
+        "name": "Élévations latérales debout",
+        "language": "fr",
+        "aliases": [
+          "Side Lateral Raise"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "shoulders"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Tiens les haltères près des cuisses, genoux souples.",
+          "Garde les coudes légèrement fléchis et les épaules basses.",
+          "Lève les bras sur les côtés jusqu’à environ la hauteur des épaules.",
+          "Redescends lentement sans balancer le corps."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Élévation des bras sur les côtés pour les épaules.",
+        "common_mistakes": [
+          "Hausser les épaules.",
+          "Donner de l’élan avec les jambes."
+        ],
+        "required_equipment": [
+          "Deux haltères"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "9b21c196ef89f124103010be95f457fc66fdab6bb7357249bff7b42458525974.png"
+      ]
+    },
+    {
+      "key": "seated-bent-over-rear-delt-raise",
+      "reference_key": "free-exercise-db:Seated_Bent-Over_Rear_Delt_Raise",
+      "reference_hash": "b7c1612e07d3d5c8951556a67b7695028aecc51aceefd02785b31c85b62faf8e",
+      "data": {
+        "name": "Oiseau assis avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Seated Bent-Over Rear Delt Raise"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "shoulders"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Assieds-toi au bord d’un banc et penche le buste vers les cuisses.",
+          "Laisse les haltères pendre sous les épaules.",
+          "Écarte les bras sur les côtés avec les coudes légèrement fléchis.",
+          "Redescends sans redresser le buste."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Écarté pour l’arrière des épaules avec le buste penché.",
+        "common_mistakes": [
+          "Tirer les haltères vers le ventre comme un rowing.",
+          "Balancer le torse pour démarrer."
+        ],
+        "required_equipment": [
+          "Deux haltères et banc"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "f8c1ff1125e843fae2ddb0509169d38edef3d1af72f0746dcc491f1c3e14c4e0.png"
+      ]
+    },
+    {
+      "key": "barbell-curl",
+      "reference_key": "free-exercise-db:Barbell_Curl",
+      "reference_hash": "a6c6055e8488520b201ffe4cbeeeeecc85aefeecf6ad2c04ff96bc5cb584b24b",
+      "data": {
+        "name": "Curl debout à la barre droite",
+        "language": "fr",
+        "aliases": [
+          "Barbell Curl"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "biceps"
+        ],
+        "secondary_muscles": [
+          "forearms"
+        ],
+        "instructions": [
+          "Saisis la barre en supination, pieds stables.",
+          "Place les coudes près du corps et gaine le tronc.",
+          "Monte la barre en fléchissant les coudes sans avancer les épaules.",
+          "Redescends jusqu’aux bras presque tendus."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Flexion des coudes avec les paumes orientées vers le haut.",
+        "common_mistakes": [
+          "Donner un coup de bassin.",
+          "Casser les poignets sous la charge."
+        ],
+        "required_equipment": [
+          "Barre droite"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "2849d8ec75bdf22862a1f7bfa6f86098dae1cec5cfe1bd2a0419182e8fb5fcc5.png"
+      ]
+    },
+    {
+      "key": "ez-bar-curl",
+      "reference_key": "free-exercise-db:EZ-Bar_Curl",
+      "reference_hash": "1956dd0054280a4c0758a16febfe5e4d989b23d74fed392acf08380f09c31f3e",
+      "data": {
+        "name": "Curl à la barre EZ",
+        "language": "fr",
+        "aliases": [
+          "EZ-Bar Curl"
+        ],
+        "category": "strength",
+        "equipment": "ez_curl_bar",
+        "primary_muscles": [
+          "biceps"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Saisis les parties inclinées de la barre EZ et tiens-toi debout.",
+          "Maintiens les coudes près du buste.",
+          "Fléchis les coudes pour remonter la barre sans bouger le torse.",
+          "Redescends lentement en gardant les poignets dans l’axe."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Curl avec une barre coudée pour une prise semi-supinée.",
+        "common_mistakes": [
+          "Balancer la barre avec le dos.",
+          "Laisser les coudes monter très en avant."
+        ],
+        "required_equipment": [
+          "Barre EZ"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "b0ff7c9026055a8dbc73335e8641f7c902a135673760b67dd1dd5337373d65bd.png"
+      ]
+    },
+    {
+      "key": "hammer-curls",
+      "reference_key": "free-exercise-db:Hammer_Curls",
+      "reference_hash": "198e436c542b8bce88f5e6c5e8804f9407023648b65e930cf0e71e9ef7f5e1d9",
+      "data": {
+        "name": "Curl marteau avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Hammer Curls"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "biceps"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Tiens les haltères le long du corps, paumes tournées vers les cuisses.",
+          "Garde les épaules stables et les coudes près du buste.",
+          "Plie les coudes sans tourner les poignets.",
+          "Redescends lentement à la position initiale."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Curl avec les paumes face à face.",
+        "common_mistakes": [
+          "Tourner la prise en supination.",
+          "Donner de l’élan avec le buste."
+        ],
+        "required_equipment": [
+          "Deux haltères"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "840bc7cfbefb27e44fadbfb58e445b7b6265d4721c3896f399e8054680849bdb.png"
+      ]
+    },
+    {
+      "key": "incline-dumbbell-curl",
+      "reference_key": "free-exercise-db:Incline_Dumbbell_Curl",
+      "reference_hash": "aa7477aa4a6faf940ea29f7c0283d4acd79898f1b159175e3d29d0e02bd8dae4",
+      "data": {
+        "name": "Curl avec haltères sur banc incliné",
+        "language": "fr",
+        "aliases": [
+          "Incline Dumbbell Curl"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "biceps"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Installe-toi sur un banc incliné, bras pendants.",
+          "Garde les épaules contre le dossier et les paumes vers l’avant.",
+          "Fléchis les coudes en laissant les bras supérieurs presque immobiles.",
+          "Redescends sous contrôle sans étirer de force les épaules."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Curl assis avec les bras derrière l’axe du buste.",
+        "common_mistakes": [
+          "Décoller les épaules du dossier.",
+          "Avancer les coudes pour faciliter la montée."
+        ],
+        "required_equipment": [
+          "Deux haltères et banc incliné"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "88ba97ebf5c42ec7281917e55d1ecc016c74af3e11a41e210f153f1dc32ed945.png"
+      ]
+    },
+    {
+      "key": "concentration-curls",
+      "reference_key": "free-exercise-db:Concentration_Curls",
+      "reference_hash": "b83808ca399a35a353e4f877b058a0eabee689a6363f503fe57b8dfad75bd6f2",
+      "data": {
+        "name": "Curl concentration assis",
+        "language": "fr",
+        "aliases": [
+          "Concentration Curls"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "biceps"
+        ],
+        "secondary_muscles": [
+          "forearms"
+        ],
+        "instructions": [
+          "Assieds-toi, jambes écartées, avec un haltère dans une main.",
+          "Place l’arrière du bras contre l’intérieur de la cuisse.",
+          "Fléchis le coude en gardant l’appui du bras.",
+          "Redescends lentement puis change de côté."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Curl unilatéral avec le bras appuyé contre la cuisse.",
+        "common_mistakes": [
+          "Appuyer le coude directement sur l’articulation du genou.",
+          "Tourner le buste pour aider la montée."
+        ],
+        "required_equipment": [
+          "Un haltère et banc"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "627ac64b24a137c44c7d442c9c3e9bb7d8969f90ce4531c46accbc9754bd5eee.png"
+      ]
+    },
+    {
+      "key": "preacher-curl",
+      "reference_key": "free-exercise-db:Preacher_Curl",
+      "reference_hash": "41a9ba8b63bbe421532cd0c218bd2f8213a35d83d60ca758230beaab99d76822",
+      "data": {
+        "name": "Curl à la barre droite au pupitre",
+        "language": "fr",
+        "aliases": [
+          "Preacher Curl"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "biceps"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Règle le siège pour poser l’arrière des bras sur le pupitre.",
+          "Saisis la barre en supination sans décoller les épaules.",
+          "Fléchis les coudes pour monter la charge.",
+          "Redescends lentement sans verrouiller brutalement les coudes."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Flexion des coudes avec les bras soutenus sur un pupitre.",
+        "common_mistakes": [
+          "Rebondir en bas de l’amplitude.",
+          "Soulever le buste du siège."
+        ],
+        "required_equipment": [
+          "Barre droite et pupitre à biceps"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "abf56ec32d3d18afc49a54b289a30b31c83eba95eb2dc474bdb523b32bccdfb3.png"
+      ]
+    },
+    {
+      "key": "triceps-pushdown-rope-attachment",
+      "reference_key": "free-exercise-db:Triceps_Pushdown_-_Rope_Attachment",
+      "reference_hash": "3dbde2fa689efe6299389fedeecff75fe349456d747ae85c524a7ffe7cdfb71f",
+      "data": {
+        "name": "Extension des triceps à la corde",
+        "language": "fr",
+        "aliases": [
+          "Triceps Pushdown - Rope Attachment"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "triceps"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Saisis la corde sous une poulie haute et stabilise le tronc.",
+          "Garde les coudes près des côtes.",
+          "Abaisse les mains en dépliant les coudes et écarte légèrement les extrémités.",
+          "Laisse la corde remonter sans déplacer les bras supérieurs."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Extension des coudes à la poulie, bras près du corps.",
+        "common_mistakes": [
+          "Pousser avec les épaules et le torse.",
+          "Laisser les coudes avancer à chaque retour."
+        ],
+        "required_equipment": [
+          "Poulie haute et corde"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "90689de37478be5b558c64e9175b87590d2bbdf549f2222f93819e23fc618925.png"
+      ]
+    },
+    {
+      "key": "standing-dumbbell-triceps-extension",
+      "reference_key": "free-exercise-db:Standing_Dumbbell_Triceps_Extension",
+      "reference_hash": "3e1f47d89956bf4bf4fa76101080ffe820b40a07893ef9ef30343f79b53185e5",
+      "data": {
+        "name": "Extension des triceps debout avec un haltère",
+        "language": "fr",
+        "aliases": [
+          "Standing Dumbbell Triceps Extension"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "triceps"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Tiens un haltère à deux mains au-dessus de la tête.",
+          "Garde les coudes dirigés vers le haut et le ventre gainé.",
+          "Plie les coudes pour descendre la charge derrière la tête.",
+          "Déplie les coudes sans cambrer le dos."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Extension au-dessus de la tête avec un haltère tenu à deux mains.",
+        "common_mistakes": [
+          "Écarter excessivement les coudes.",
+          "Bouger tout le bras au lieu du coude."
+        ],
+        "required_equipment": [
+          "Un haltère"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "5c891429cc57f5f5a77ca9fc9e0bedf53f4fbad0bd48051f9ad32a8526e20640.png"
+      ]
+    },
+    {
+      "key": "dumbbell-one-arm-triceps-extension",
+      "reference_key": "free-exercise-db:Dumbbell_One-Arm_Triceps_Extension",
+      "reference_hash": "bc79183da33a63a73a67fdad0a11896289a2cd52b4031b5d7a569ccac14dc7e0",
+      "data": {
+        "name": "Extension des triceps assis à un bras",
+        "language": "fr",
+        "aliases": [
+          "Dumbbell One-Arm Triceps Extension"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "triceps"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Assieds-toi avec un haltère dans une main au-dessus de l’épaule.",
+          "Maintiens le coude orienté vers le haut.",
+          "Plie le coude pour faire descendre la charge derrière la tête.",
+          "Déplie lentement puis change de côté."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Extension unilatérale au-dessus de la tête en position assise.",
+        "common_mistakes": [
+          "Incliner le buste pour terminer.",
+          "Faire pivoter l’épaule sous la charge."
+        ],
+        "required_equipment": [
+          "Un haltère et banc"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "e904f4b2488eada878ef797bcfc8bc99dfc550315a72c0e1214fc6c08960fa2e.png"
+      ]
+    },
+    {
+      "key": "close-grip-barbell-bench-press",
+      "reference_key": "free-exercise-db:Close-Grip_Barbell_Bench_Press",
+      "reference_hash": "d543647d02c72cad74e30502da51ff56c99eb75c4600470b960f3112a2ea2692",
+      "data": {
+        "name": "Développé couché prise serrée",
+        "language": "fr",
+        "aliases": [
+          "Close-Grip Barbell Bench Press"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "triceps"
+        ],
+        "secondary_muscles": [
+          "chest",
+          "shoulders"
+        ],
+        "instructions": [
+          "Allonge-toi sur un banc plat avec les pieds stables.",
+          "Saisis la barre à une largeur proche des épaules.",
+          "Descends vers le bas de la poitrine en gardant les coudes près du corps.",
+          "Repousse la barre sans perdre les appuis."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Développé couché avec une prise rapprochée pour les triceps.",
+        "common_mistakes": [
+          "Serrer les mains au point de tordre les poignets.",
+          "Écarter les coudes au maximum."
+        ],
+        "required_equipment": [
+          "Barre",
+          "banc et sécurités"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "af3ca367a3f4234dc90db081f9bad3da403102b902bffff1a8f0855aee50efa9.png"
+      ]
+    },
+    {
+      "key": "plank",
+      "reference_key": "free-exercise-db:Plank",
+      "reference_hash": "c9507306bf589586a2a7c86814c8ca65acf3d1ee931d930a403d5c9dc7ad3b17",
+      "data": {
+        "name": "Gainage ventral sur avant-bras",
+        "language": "fr",
+        "aliases": [
+          "Plank"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "abdominals"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Place les coudes sous les épaules et tends les jambes.",
+          "Resserre légèrement les fessiers et gaine le ventre.",
+          "Maintiens tête, bassin et talons alignés en respirant régulièrement.",
+          "Arrête la tenue lorsque tu ne peux plus conserver l’alignement."
+        ],
+        "level": "beginner",
+        "force": "static",
+        "mechanic": "isolation",
+        "description": "Maintien du corps aligné sur les avant-bras et les pieds.",
+        "common_mistakes": [
+          "Laisser le ventre descendre.",
+          "Monter les hanches pour éviter l’effort."
+        ],
+        "required_equipment": [
+          "Tapis facultatif"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "6808a2417acf0bfac5441385696c2d4bfdd7de6809d5345d933f32dd2cdbf494.png"
+      ]
+    },
+    {
+      "key": "crunches",
+      "reference_key": "free-exercise-db:Crunches",
+      "reference_hash": "f88387825f005a4700ab4effcecfebb6884005583c8772e47b1cabe3e92e916f",
+      "data": {
+        "name": "Crunch au sol",
+        "language": "fr",
+        "aliases": [
+          "Crunches"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "abdominals"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Allonge-toi sur le dos, genoux fléchis et pieds au sol.",
+          "Place les mains près des tempes ou sur la poitrine.",
+          "Enroule le haut du dos pour décoller les omoplates en expirant.",
+          "Redescends lentement sans tirer sur la tête."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Enroulement court du haut du dos pour les abdominaux.",
+        "common_mistakes": [
+          "Tirer la nuque avec les mains.",
+          "Monter jusqu’à s’asseoir et changer de mouvement."
+        ],
+        "required_equipment": [
+          "Tapis facultatif"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "56fcfc2872c395a1b47fb7ead76eca13be4b2c5af0fba04fd45a31f5ced38fcf.png"
+      ]
+    },
+    {
+      "key": "reverse-crunch",
+      "reference_key": "free-exercise-db:Reverse_Crunch",
+      "reference_hash": "4b86aa96d763a40fe1b2f0ab898248d2a37e5ab42bd986116dd41e1e40d48887",
+      "data": {
+        "name": "Crunch inversé",
+        "language": "fr",
+        "aliases": [
+          "Reverse Crunch"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "abdominals"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Allonge-toi sur le dos et relève les jambes avec les genoux fléchis.",
+          "Garde les épaules au sol.",
+          "Enroule doucement le bassin pour rapprocher les genoux du torse.",
+          "Repose le bassin sans balancer les jambes."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Enroulement du bassin vers le thorax, dos au sol.",
+        "common_mistakes": [
+          "Lancer les jambes avec de l’élan.",
+          "Faire uniquement une flexion de hanche sans enrouler le bassin."
+        ],
+        "required_equipment": [
+          "Tapis facultatif"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "bcc90b1a18eabdaf336d91a2b3e4b11c35327289a4c3e64fd61ad0d615af0ef7.png"
+      ]
+    },
+    {
+      "key": "pallof-press",
+      "reference_key": "free-exercise-db:Pallof_Press",
+      "reference_hash": "947b694b80921ae2a77fcfc1e63fd0c1a18e4ac5b7083098db9a53b152806d5d",
+      "data": {
+        "name": "Poussée antirotation à la poulie",
+        "language": "fr",
+        "aliases": [
+          "Pallof Press"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "abdominals"
+        ],
+        "secondary_muscles": [
+          "chest",
+          "shoulders",
+          "triceps"
+        ],
+        "instructions": [
+          "Place-toi de côté à une poulie réglée à hauteur de poitrine.",
+          "Tiens la poignée à deux mains contre le sternum.",
+          "Tends les bras devant toi sans laisser le buste tourner.",
+          "Ramène la poignée et répète des deux côtés."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Maintien du tronc face à une traction latérale.",
+        "common_mistakes": [
+          "Pivoter vers la machine.",
+          "Se pencher sur le côté pour compenser."
+        ],
+        "required_equipment": [
+          "Poulie et poignée"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "de131d3769fcb9832ba80a254f7fffafba871893df759c999c74a8cd63b417ed.png"
+      ]
+    },
+    {
+      "key": "ab-roller",
+      "reference_key": "free-exercise-db:Ab_Roller",
+      "reference_hash": "df2eb2ce3bc42081647d5a202c3e59f4125b4f841c2d02117ec9865edbd564be",
+      "data": {
+        "name": "Roue abdominale à genoux",
+        "language": "fr",
+        "aliases": [
+          "Ab Roller"
+        ],
+        "category": "strength",
+        "equipment": "other",
+        "primary_muscles": [
+          "abdominals"
+        ],
+        "secondary_muscles": [
+          "shoulders"
+        ],
+        "instructions": [
+          "Agenouille-toi et tiens la roue sous les épaules.",
+          "Gaine le ventre avant de rouler vers l’avant.",
+          "Avance seulement jusqu’à la distance où tu gardes le bassin et le dos contrôlés.",
+          "Ramène la roue vers les genoux sans te laisser tomber."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Déroulement du corps avec une roue, appui sur les genoux.",
+        "common_mistakes": [
+          "Creuser le bas du dos en fin d’amplitude.",
+          "Aller plus loin que la maîtrise du retour."
+        ],
+        "required_equipment": [
+          "Roue abdominale et tapis"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "0435257db12909f2c6e73f0faadf94b95ba353a8be467a3316508e9806ecc041.png"
+      ]
+    },
+    {
+      "key": "mountain-climbers",
+      "reference_key": "free-exercise-db:Mountain_Climbers",
+      "reference_hash": "eecce437e4cbc27875f04ed5dde056b243041274e0543e235db84a44f416b845",
+      "data": {
+        "name": "Mountain climbers",
+        "language": "fr",
+        "aliases": [
+          "Mountain Climbers"
+        ],
+        "category": "plyometrics",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "chest",
+          "hamstrings",
+          "shoulders"
+        ],
+        "instructions": [
+          "Place-toi bras tendus, mains sous les épaules.",
+          "Garde le tronc stable et les appuis au sol.",
+          "Ramène un genou vers la poitrine puis replace le pied.",
+          "Alterne les jambes sans monter fortement les hanches."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Alternance des genoux vers le torse en position de planche.",
+        "common_mistakes": [
+          "Balancer le bassin de droite à gauche.",
+          "Poser les mains trop loin devant le corps."
+        ],
+        "required_equipment": [
+          "Aucun"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "6da03a25d3f66a4cc793d05fbdcc79ff337b50218963d4ba754f4556ff655c2e.png"
+      ]
+    },
+    {
+      "key": "freehand-jump-squat",
+      "reference_key": "free-exercise-db:Freehand_Jump_Squat",
+      "reference_hash": "83a9453fc148de7315ce159340857f998866d1aa3e9919d60c160bea6946eb75",
+      "data": {
+        "name": "Squat sauté",
+        "language": "fr",
+        "aliases": [
+          "Freehand Jump Squat"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "glutes",
+          "hamstrings"
+        ],
+        "instructions": [
+          "Pars debout avec les pieds à une largeur confortable.",
+          "Descends en squat avec le tronc stable.",
+          "Pousse fortement dans le sol pour sauter.",
+          "Réceptionne en fléchissant les jambes avant de recommencer."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Squat au poids du corps suivi d’un saut vertical.",
+        "common_mistakes": [
+          "Atterrir jambes raides.",
+          "Laisser les genoux rentrer à la réception."
+        ],
+        "required_equipment": [
+          "Aucun"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "f539f2eb2d8378dd5ca0d7306c900b1e0ad3d4eb5fbf84bf9e3b0eded29bd5ee.png"
+      ]
+    },
+    {
+      "key": "rowing-stationary",
+      "reference_key": "free-exercise-db:Rowing_Stationary",
+      "reference_hash": "07acc3c9f929d710794531576f46275372ca9d20fc532564763cdd0488323a2e",
+      "data": {
+        "name": "Rameur",
+        "language": "fr",
+        "aliases": [
+          "Rowing, Stationary"
+        ],
+        "category": "cardio",
+        "equipment": "machine",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "calves",
+          "glutes",
+          "hamstrings",
+          "lower_back",
+          "middle_back"
+        ],
+        "instructions": [
+          "Installe les pieds dans les sangles et saisis la poignée.",
+          "Depuis la position avant, pousse d’abord avec les jambes.",
+          "Ouvre légèrement le tronc puis tire la poignée vers le bas des côtes.",
+          "Reviens dans l’ordre bras, tronc puis jambes."
+        ],
+        "level": "intermediate",
+        "force": null,
+        "mechanic": null,
+        "description": "Enchaînement coordonné des jambes, du tronc et des bras.",
+        "common_mistakes": [
+          "Tirer avec les bras avant de pousser avec les jambes.",
+          "Arrondir fortement le dos à l’avant."
+        ],
+        "required_equipment": [
+          "Rameur ergométrique"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "cd0a7e19fc0f20589e517579fbb3555c14b70662dd3d1a6189e628ff879ad04b.png"
+      ]
+    },
+    {
+      "key": "air-bike",
+      "reference_key": "free-exercise-db:Air_Bike",
+      "reference_hash": "22abf6e4ae03360f3e146eeb4591d9fc87389cd878e28dc7b100c5e9309bed0f",
+      "data": {
+        "name": "Crunch vélo au sol",
+        "language": "fr",
+        "aliases": [
+          "Air Bike"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "abdominals"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Allonge-toi sur le dos, mains près des tempes et genoux relevés.",
+          "Décolle les omoplates puis rapproche une épaule du genou opposé.",
+          "Allonge l’autre jambe sans laisser le bas du dos se creuser.",
+          "Alterne les côtés lentement en gardant les mains légères sur la tête."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Crunch alterné avec pédalage des jambes, sans vélo ni machine.",
+        "common_mistakes": [
+          "Confondre cet exercice avec le vélo à air.",
+          "Tirer la nuque avec les mains."
+        ],
+        "required_equipment": [
+          "Tapis facultatif"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "efc785b90277d7d200f2df82de71d371f9e521525d18003a44bc5bbc1644a7e1.png"
+      ]
+    },
+    {
+      "key": "overhead-squat",
+      "reference_key": "free-exercise-db:Overhead_Squat",
+      "reference_hash": "0adb62eff3f471a4280bd54f3a9bc8d217909a9468bb2b578e8c7207464f00d3",
+      "data": {
+        "name": "Squat avec barre au-dessus de la tête",
+        "language": "fr",
+        "aliases": [
+          "Overhead Squat"
+        ],
+        "category": "olympic_weightlifting",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "abdominals",
+          "calves",
+          "glutes",
+          "hamstrings",
+          "lower_back",
+          "shoulders",
+          "triceps"
+        ],
+        "instructions": [
+          "Place la barre au-dessus de la tête avec une prise large et le tronc gainé.",
+          "Stabilise les épaules et maintiens les bras tendus.",
+          "Descends en squat en gardant la barre au-dessus du milieu des pieds.",
+          "Remonte sans perdre l’alignement de la charge."
+        ],
+        "level": "expert",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Squat avec la barre stabilisée bras tendus au-dessus de la tête.",
+        "common_mistakes": [
+          "Laisser la barre passer devant les pieds.",
+          "Forcer la profondeur au détriment de la stabilité des épaules."
+        ],
+        "required_equipment": [
+          "Barre et espace dégagé"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "6661bf7a9af4c95ff82a35b5c40501502efb46679237ca3a367df15883456763.png"
+      ]
+    },
+    {
+      "key": "clean",
+      "reference_key": "free-exercise-db:Clean",
+      "reference_hash": "3c815882001550461f972c7b4285ea1f7925740098a08ae5f0a4b39c0826f3f4",
+      "data": {
+        "name": "Épaulé avec réception en squat",
+        "language": "fr",
+        "aliases": [
+          "Clean"
+        ],
+        "category": "olympic_weightlifting",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "hamstrings"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "forearms",
+          "glutes",
+          "lower_back",
+          "quadriceps",
+          "shoulders",
+          "traps"
+        ],
+        "instructions": [
+          "Saisis la barre au sol, dos stable et bras allongés.",
+          "Pousse avec les jambes puis accélère par l’extension des hanches.",
+          "Passe rapidement sous la barre et reçois-la sur les épaules en squat.",
+          "Stabilise la réception puis remonte debout."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Épaulé depuis le sol avec réception sous la barre.",
+        "common_mistakes": [
+          "Tirer trop tôt avec les bras.",
+          "Recevoir la barre dans les mains plutôt que sur les épaules."
+        ],
+        "required_equipment": [
+          "Barre et disques"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "b1a52061ad58f0729edbe8df7cb289eb50e93964e4046e0f8f3f50218bacf269.png"
+      ]
+    },
+    {
+      "key": "hang-clean",
+      "reference_key": "free-exercise-db:Hang_Clean",
+      "reference_hash": "310fee3cdb529f32f2a57aabd9459fa52a35fdac5f78b1eca6bdc58122801fe1",
+      "data": {
+        "name": "Épaulé depuis la suspension",
+        "language": "fr",
+        "aliases": [
+          "Hang Clean"
+        ],
+        "category": "olympic_weightlifting",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "forearms",
+          "glutes",
+          "hamstrings",
+          "lower_back",
+          "shoulders",
+          "traps"
+        ],
+        "instructions": [
+          "Pars debout avec la barre puis recule les hanches pour placer la barre près des cuisses.",
+          "Garde les bras allongés et le tronc stable.",
+          "Étends vivement les jambes et les hanches puis passe sous la barre.",
+          "Reçois la charge sur les épaules et stabilise les pieds avant de te relever."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Épaulé amorcé avec la barre au-dessus du sol.",
+        "common_mistakes": [
+          "Éloigner la barre des cuisses.",
+          "Recevoir la barre avec les coudes dirigés vers le sol."
+        ],
+        "required_equipment": [
+          "Barre et disques"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "75374908a50c6749c6097982843d0e47c0684f0cd6a2d87a864bf5e39cb692f6.png"
+      ]
+    },
+    {
+      "key": "snatch",
+      "reference_key": "free-exercise-db:Snatch",
+      "reference_hash": "57863da4b33fab6e3d5ac2625e879528ec259aa0025126cc1c44414d29bf6432",
+      "data": {
+        "name": "Arraché depuis le sol",
+        "language": "fr",
+        "aliases": [
+          "Snatch"
+        ],
+        "category": "olympic_weightlifting",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "glutes",
+          "hamstrings",
+          "lower_back",
+          "shoulders",
+          "traps",
+          "triceps"
+        ],
+        "instructions": [
+          "Prends une prise large sur la barre au sol avec le dos stable.",
+          "Pousse avec les jambes puis accélère la barre par l’extension des hanches.",
+          "Passe sous la barre et stabilise-la bras tendus dans la réception.",
+          "Remonte debout en conservant la charge au-dessus des appuis."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Montée de la barre au-dessus de la tête en un seul mouvement.",
+        "common_mistakes": [
+          "Tirer la barre en grand arc devant soi.",
+          "Recevoir avec les coudes fléchis."
+        ],
+        "required_equipment": [
+          "Barre et disques"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "f0c9ba268dea88a50a6e84387c6ea848b54befd700d54fca60477a0dc2466488.png"
+      ]
+    },
+    {
+      "key": "handstand-push-ups",
+      "reference_key": "free-exercise-db:Handstand_Push-Ups",
+      "reference_hash": "5208e2881d5d3cc3148d0eb5aff579d9a41dd70a75f731e4592808c54cb613ad",
+      "data": {
+        "name": "Pompes en équilibre contre un mur",
+        "language": "fr",
+        "aliases": [
+          "Handstand Push-Ups"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "shoulders"
+        ],
+        "secondary_muscles": [
+          "triceps"
+        ],
+        "instructions": [
+          "Place les mains au sol à une largeur stable et monte en équilibre dos au mur.",
+          "Gaine le ventre et garde les épaules engagées.",
+          "Plie les coudes pour approcher doucement la tête du support.",
+          "Repousse le sol jusqu’aux bras tendus sans donner d’élan avec les jambes."
+        ],
+        "level": "expert",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Poussée verticale inversée, pieds contre le mur.",
+        "common_mistakes": [
+          "S’effondrer sur la tête.",
+          "Cambrer fortement le dos pour rester au mur."
+        ],
+        "required_equipment": [
+          "Mur dégagé et appui pour la tête"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://raw.githubusercontent.com/yuhonas/free-exercise-db/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json"
+      ],
+      "illustrations": [
+        "9c74de0122359ffaaf4d6104419ac55a6fddaad5389e168254ee674557f7591e.png"
+      ]
+    },
+    {
+      "key": "burpee",
+      "data": {
+        "name": "Burpee avec passage au sol",
+        "language": "fr",
+        "aliases": [
+          "Burpee",
+          "Burpees"
+        ],
+        "category": "cardio",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "quadriceps",
+          "chest"
+        ],
+        "secondary_muscles": [
+          "glutes",
+          "shoulders",
+          "triceps",
+          "abdominals"
+        ],
+        "instructions": [
+          "Pars debout puis pose les mains au sol devant les pieds.",
+          "Recule les pieds et abaisse le corps jusqu’au sol avec contrôle.",
+          "Repousse le sol puis ramène les pieds près des mains.",
+          "Redresse-toi et termine par un saut vertical avec une réception souple."
+        ],
+        "level": "intermediate",
+        "force": null,
+        "mechanic": "compound",
+        "description": "Enchaînement debout, passage au sol et saut vertical.",
+        "common_mistakes": [
+          "S’effondrer sur le bas du dos au passage au sol.",
+          "Sauter sans redresser les hanches."
+        ],
+        "required_equipment": [
+          "Aucun"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://www.crossfit.com/essentials/the-burpee"
+      ],
+      "illustrations": [
+        "002385fa452f0c63bd00658a353c231d94357bb5d8047cc8a164c8e2f0c3e5d8.png"
+      ]
+    },
+    {
+      "key": "thruster-barre",
+      "data": {
+        "name": "Thruster à la barre",
+        "language": "fr",
+        "aliases": [
+          "Thruster",
+          "Barbell thruster"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "quadriceps",
+          "shoulders"
+        ],
+        "secondary_muscles": [
+          "glutes",
+          "triceps",
+          "abdominals"
+        ],
+        "instructions": [
+          "Place la barre sur l’avant des épaules, pieds stables et coudes relevés.",
+          "Descends en squat en maintenant le tronc stable.",
+          "Remonte vivement et utilise la poussée des jambes pour envoyer la barre au-dessus de la tête.",
+          "Termine debout bras tendus puis ramène la barre sur les épaules avant la répétition suivante."
+        ],
+        "level": "intermediate",
+        "force": null,
+        "mechanic": "compound",
+        "description": "Squat avant suivi d’une poussée au-dessus de la tête dans un enchaînement continu.",
+        "common_mistakes": [
+          "Séparer complètement le squat et le développé.",
+          "Cambrer le dos à la fin de la poussée."
+        ],
+        "required_equipment": [
+          "Barre et disques"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://www.crossfit.com/essentials/the-thruster"
+      ],
+      "illustrations": [
+        "9fadf1b6acd5e05a0ea7994928e6288ccf61258a54a824945bd8351cd00aa280.png"
+      ]
+    },
+    {
+      "key": "box-jump",
+      "data": {
+        "name": "Saut sur box avec descente en marchant",
+        "language": "fr",
+        "aliases": [
+          "Box jump"
+        ],
+        "category": "plyometrics",
+        "equipment": "other",
+        "primary_muscles": [
+          "quadriceps",
+          "glutes"
+        ],
+        "secondary_muscles": [
+          "hamstrings",
+          "calves"
+        ],
+        "instructions": [
+          "Place-toi face à une box stable à une distance permettant le saut.",
+          "Fléchis légèrement les jambes puis saute avec l’aide des bras.",
+          "Réceptionne les deux pieds entièrement sur la box et redresse-toi.",
+          "Redescends en marchant et replace les pieds avant de recommencer."
+        ],
+        "level": "intermediate",
+        "force": null,
+        "mechanic": "compound",
+        "description": "Saut à deux pieds sur un support stable, puis retour au sol sans saut.",
+        "common_mistakes": [
+          "Atterrir uniquement sur le bord du support.",
+          "Choisir une hauteur qui oblige à une réception incontrôlée."
+        ],
+        "required_equipment": [
+          "Box stable"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://www.crossfit.com/crossfit-movements"
+      ],
+      "illustrations": [
+        "af366d771ca8b05c60527ad08eebd7592171b13d19185d8b095f498a1032d4fd.png"
+      ]
+    },
+    {
+      "key": "swing-kettlebell-russe",
+      "data": {
+        "name": "Swing russe avec kettlebell",
+        "language": "fr",
+        "aliases": [
+          "Russian kettlebell swing",
+          "Kettlebell swing"
+        ],
+        "category": "strength",
+        "equipment": "kettlebells",
+        "primary_muscles": [
+          "glutes",
+          "hamstrings"
+        ],
+        "secondary_muscles": [
+          "abdominals",
+          "lower_back",
+          "forearms"
+        ],
+        "instructions": [
+          "Tiens la kettlebell à deux mains devant le corps, pieds stables.",
+          "Recule les hanches pour laisser la charge passer entre les jambes avec le dos stable.",
+          "Étends les hanches pour propulser la kettlebell jusqu’à environ la hauteur de poitrine.",
+          "Laisse la charge redescendre puis recule à nouveau les hanches pour le balancement suivant."
+        ],
+        "level": "intermediate",
+        "force": null,
+        "mechanic": "compound",
+        "description": "Balancement à deux mains jusqu’à hauteur de poitrine, entraîné par les hanches.",
+        "common_mistakes": [
+          "Soulever la charge uniquement avec les bras.",
+          "Transformer la charnière de hanche en squat profond."
+        ],
+        "required_equipment": [
+          "Une kettlebell"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://www.crossfit.com/crossfit-movements"
+      ],
+      "illustrations": [
+        "873220826882b5200f643b0c969acc4d74a22cc118285d9709091a9141ff99b0.png"
+      ]
+    },
+    {
+      "key": "toes-to-bar-stricts",
+      "data": {
+        "name": "Pieds à la barre sans élan",
+        "language": "fr",
+        "aliases": [
+          "Strict toes-to-bar",
+          "Toes to bar stricts"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "abdominals"
+        ],
+        "secondary_muscles": [
+          "lats",
+          "forearms"
+        ],
+        "instructions": [
+          "Suspends-toi à une barre fixe en pronation et engage les épaules.",
+          "Gaine le tronc pour stabiliser la suspension.",
+          "Monte les jambes et enroule le bassin jusqu’à toucher la barre avec les pieds.",
+          "Redescends lentement sans lancer un balancement."
+        ],
+        "level": "expert",
+        "force": null,
+        "mechanic": "compound",
+        "description": "Relevé des jambes suspendu jusqu’au contact des pieds avec la barre, sans balancement.",
+        "common_mistakes": [
+          "Confondre la variante stricte avec le kipping.",
+          "Valider une simple montée des genoux sans contact des pieds."
+        ],
+        "required_equipment": [
+          "Barre de traction"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://www.crossfit.com/crossfit-movements"
+      ],
+      "illustrations": [
+        "dc6c06de394be40f214c93887e41c47840a7189f67569f9f58528e4157f13935.png"
+      ]
+    },
+    {
+      "key": "wall-ball",
+      "data": {
+        "name": "Squat et lancer de ballon au mur",
+        "language": "fr",
+        "aliases": [
+          "Wall ball",
+          "Wall-ball shot"
+        ],
+        "category": "cardio",
+        "equipment": "medicine_ball",
+        "primary_muscles": [
+          "quadriceps",
+          "glutes"
+        ],
+        "secondary_muscles": [
+          "shoulders",
+          "triceps",
+          "abdominals"
+        ],
+        "instructions": [
+          "Place-toi face à un mur avec le ballon tenu devant la poitrine.",
+          "Descends en squat en gardant les pieds stables.",
+          "Remonte et prolonge la poussée des jambes pour lancer le ballon vers la cible.",
+          "Réceptionne le ballon devant la poitrine et absorbe son retour avant de recommencer."
+        ],
+        "level": "intermediate",
+        "force": null,
+        "mechanic": "compound",
+        "description": "Squat avec ballon suivi d’un lancer vers une cible au mur.",
+        "common_mistakes": [
+          "Lancer uniquement avec les bras.",
+          "Réceptionner le ballon loin du corps."
+        ],
+        "required_equipment": [
+          "Ballon adapté au lancer et cible au mur"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://www.crossfit.com/crossfit-movements"
+      ],
+      "illustrations": [
+        "48f1af746d2d3d08f81efc78c4d324b3554922075eb6da8be1d1be489a5b63f2.png"
+      ]
+    },
+    {
+      "key": "double-under",
+      "data": {
+        "name": "Double tour de corde par saut",
+        "language": "fr",
+        "aliases": [
+          "Double under",
+          "Double unders"
+        ],
+        "category": "cardio",
+        "equipment": "other",
+        "primary_muscles": [
+          "calves"
+        ],
+        "secondary_muscles": [
+          "quadriceps",
+          "shoulders",
+          "forearms"
+        ],
+        "instructions": [
+          "Tiens les poignées près des hanches, coudes proches du corps.",
+          "Prends une cadence régulière avec des sauts verticaux.",
+          "Accélère la rotation des poignets pour faire passer la corde deux fois sous les pieds.",
+          "Réceptionne souplement et conserve les mains à la même hauteur."
+        ],
+        "level": "intermediate",
+        "force": null,
+        "mechanic": "compound",
+        "description": "Saut à la corde avec deux passages de la corde sous les pieds par saut.",
+        "common_mistakes": [
+          "Faire de grands cercles avec les bras.",
+          "Replier exagérément les genoux au lieu de sauter verticalement."
+        ],
+        "required_equipment": [
+          "Corde à sauter"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://www.crossfit.com/crossfit-movements"
+      ],
+      "illustrations": [
+        "9feb9f7fa76efada6d70cc471af824dd81f762ae08d40af8a4c93e73feedfe8b.png"
+      ]
+    },
+    {
+      "key": "parallel-bar-dips",
+      "reference_key": "free-exercise-db:Dips_-_Triceps_Version",
+      "reference_hash": "297249b172a2c0b3c2d52fbe932e4c9ca6e6e7cc252733613be6f55d8ab57235",
+      "data": {
+        "name": "Dips aux barres parallèles",
+        "language": "fr",
+        "aliases": [
+          "Dips",
+          "Parallel bar dips",
+          "Dips - Triceps Version"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "triceps"
+        ],
+        "secondary_muscles": [
+          "chest",
+          "shoulders"
+        ],
+        "instructions": [
+          "Prends appui sur les barres parallèles, bras tendus et épaules stabilisées.",
+          "Fléchis les coudes pour descendre avec contrôle, sans forcer une amplitude inconfortable.",
+          "Garde les avant-bras proches de la verticale et le tronc stable.",
+          "Repousse les barres pour revenir en appui, sans rebond en bas du mouvement."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Flexions et extensions des bras en appui sur des barres parallèles, au poids du corps ou avec lest.",
+        "required_equipment": [
+          "Barres parallèles",
+          "Ceinture de lest facultative"
+        ],
+        "common_mistakes": [
+          "Laisser les épaules remonter ou partir vers l’avant.",
+          "Descendre plus bas que l’amplitude que tu contrôles."
+        ]
+      },
+      "media_note": "Illustration originale générée par IA pour CoachConnect. Style commun gris et rouge sur fond blanc ; variante, matériel et phases du mouvement examinés visuellement.",
+      "references": [
+        "https://github.com/everkinetic/data"
+      ],
+      "authored_on": "2026-10-16",
+      "illustrations": [
+        "6df32cacb6af35934ea10f04d440d8a1c08b5022a889febcc01a0450b6173b3b.png"
+      ]
+    },
+    {
+      "key": "barbell-push-press",
+      "data": {
+        "name": "Push press à la barre",
+        "language": "fr",
+        "aliases": [
+          "Push press",
+          "Barbell push press"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "shoulders"
+        ],
+        "secondary_muscles": [
+          "triceps",
+          "quadriceps",
+          "glutes"
+        ],
+        "instructions": [
+          "Place la barre à l’avant des épaules, pieds à largeur confortable.",
+          "Effectue une courte flexion des genoux en gardant le buste vertical.",
+          "Étends les jambes puis pousse la barre au-dessus de la tête.",
+          "Termine debout, bras tendus et tronc stable, puis ramène la barre aux épaules avec contrôle."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Développé au-dessus de la tête avec une impulsion des jambes, sans seconde flexion de réception.",
+        "common_mistakes": [
+          "Se pencher vers l’avant pendant l’impulsion.",
+          "Refléchir les genoux sous la barre : cette variante devient un push jerk."
+        ],
+        "required_equipment": [
+          "Barre",
+          "Disques"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA le 16 octobre 2026, vérifiée visuellement pour le matériel, les positions et la variante. Push press avec impulsion des jambes ; pike avec bassin relevé et tête sans appui. Plusieurs phases réunies dans une image.",
+      "references": [
+        "https://www.crossfit.com/essentials/the-push-press"
+      ],
+      "authored_on": "2026-10-16",
+      "illustrations": [
+        "7e5b9ba661d2dafc8662dee741cf85152b357fff0c9e31c25f2202f49e7b3bb0.png"
+      ]
+    },
+    {
+      "key": "pike-push-up",
+      "data": {
+        "name": "Pompes en pike",
+        "language": "fr",
+        "aliases": [
+          "Pike push-up",
+          "Pike push up",
+          "Pike pushups"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "shoulders"
+        ],
+        "secondary_muscles": [
+          "triceps",
+          "chest"
+        ],
+        "instructions": [
+          "Place les mains au sol et relève le bassin pour former un V inversé.",
+          "Garde les pieds en appui et adapte leur distance aux mains à ta mobilité.",
+          "Fléchis les coudes pour rapprocher la tête du sol devant les mains, sans appui sur la tête.",
+          "Repousse le sol pour retrouver la position initiale, bassin maintenu en hauteur."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Pompes réalisées avec le bassin relevé pour orienter davantage la poussée vers les épaules.",
+        "common_mistakes": [
+          "Laisser le bassin s’affaisser comme dans une pompe classique.",
+          "Poser brutalement la tête au sol ou perdre le contrôle de la descente."
+        ],
+        "required_equipment": [
+          "Sol stable"
+        ]
+      },
+      "media_note": "Illustration originale générée par IA le 16 octobre 2026, vérifiée visuellement pour le matériel, les positions et la variante. Push press avec impulsion des jambes ; pike avec bassin relevé et tête sans appui. Plusieurs phases réunies dans une image.",
+      "references": [
+        "https://www.nasm.org/resource-center/exercise-library/pike-push-up"
+      ],
+      "authored_on": "2026-10-16",
+      "illustrations": [
+        "c4ed7ba92ffb12a5a406c4275ad2b5bcbbbbf0653762a49889250324cf16c20e.png"
+      ]
+    },
+    {
+      "key": "dumbbell-reverse-lunge",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Fentes arrière avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Reverse lunge",
+          "Dumbbell reverse lunge"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "quadriceps",
+          "glutes"
+        ],
+        "secondary_muscles": [
+          "hamstrings",
+          "abdominals"
+        ],
+        "instructions": [
+          "Tiens les haltères de chaque côté et place les pieds à largeur de bassin.",
+          "Recule un pied et fléchis les deux jambes avec contrôle.",
+          "Garde le pied avant à plat et le genou orienté dans la direction des orteils.",
+          "Pousse dans la jambe avant pour revenir debout, puis change de côté."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Fente réalisée en reculant une jambe, haltères tenus le long du corps.",
+        "required_equipment": [
+          "Deux haltères",
+          "Espace dégagé"
+        ],
+        "common_mistakes": [
+          "Perdre l’équilibre en reculant sur une ligne trop étroite.",
+          "Laisser le genou avant rentrer vers l’intérieur."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "e03e0600346b65da446a0456ceacafd737e09198aedad26aad06043828136e9b.png"
+      ]
+    },
+    {
+      "key": "dumbbell-walking-lunge",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Fentes marchées avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Walking lunge",
+          "Dumbbell walking lunges"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "quadriceps",
+          "glutes"
+        ],
+        "secondary_muscles": [
+          "hamstrings",
+          "abdominals"
+        ],
+        "instructions": [
+          "Tiens les haltères le long du corps et regarde devant toi.",
+          "Avance un pied, puis descends en fléchissant les deux jambes.",
+          "Repousse le sol avec le pied avant pour avancer le bassin.",
+          "Passe la jambe arrière vers l’avant pour enchaîner la fente suivante."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Enchaînement de fentes en avançant, avec un haltère dans chaque main.",
+        "required_equipment": [
+          "Deux haltères",
+          "Couloir dégagé"
+        ],
+        "common_mistakes": [
+          "Faire des pas trop courts pour contrôler la descente.",
+          "Balancer les haltères pour avancer."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "525e6557860e7f05bc77b427d7bae6f10551ed4cc44f1d76eb2841a37e5e4d49.png"
+      ]
+    },
+    {
+      "key": "dumbbell-bulgarian-split-squat",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Squat bulgare avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Bulgarian split squat",
+          "Rear foot elevated split squat"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "quadriceps",
+          "glutes"
+        ],
+        "secondary_muscles": [
+          "hamstrings",
+          "abdominals"
+        ],
+        "instructions": [
+          "Pose le dessus du pied arrière sur un banc stable et avance le pied d’appui.",
+          "Tiens un haltère de chaque côté avec le bassin orienté vers l’avant.",
+          "Fléchis la jambe avant pour descendre sans chercher une profondeur forcée.",
+          "Pousse dans le pied avant pour remonter, puis réalise l’autre côté."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Squat unilatéral avec le pied arrière sur un banc et les haltères le long du corps.",
+        "required_equipment": [
+          "Deux haltères",
+          "Banc stable"
+        ],
+        "common_mistakes": [
+          "Placer le pied avant trop près du banc.",
+          "Pousser principalement avec la jambe arrière."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "72f50ebb6a7150c3ce0acc9add4ec21f728f36e946ee7a750b06a4ff43a9efe1.png"
+      ]
+    },
+    {
+      "key": "dumbbell-romanian-deadlift",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Soulevé de terre roumain avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Dumbbell Romanian deadlift",
+          "RDL haltères"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "hamstrings",
+          "glutes"
+        ],
+        "secondary_muscles": [
+          "lower_back",
+          "forearms"
+        ],
+        "instructions": [
+          "Tiens les haltères devant les cuisses et déverrouille légèrement les genoux.",
+          "Recule les hanches en laissant les haltères descendre près des jambes.",
+          "Arrête la descente lorsque tu ne peux plus garder le dos et le bassin stables.",
+          "Ramène les hanches vers l’avant pour revenir debout, sans te pencher en arrière."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Charnière de hanches avec haltères, genoux légèrement fléchis et dos stable.",
+        "required_equipment": [
+          "Deux haltères"
+        ],
+        "common_mistakes": [
+          "Transformer le mouvement en squat.",
+          "Chercher le sol en arrondissant le dos."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "2acf516cd73b9272cf7261c56c1b947167dc8229c7b3f672c8f91c8137bc6911.png"
+      ]
+    },
+    {
+      "key": "single-leg-dumbbell-romanian-deadlift",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Soulevé de terre roumain sur une jambe avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Single leg RDL",
+          "Single leg dumbbell deadlift"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "hamstrings",
+          "glutes"
+        ],
+        "secondary_muscles": [
+          "abdominals",
+          "lower_back"
+        ],
+        "instructions": [
+          "Tiens les haltères et prends appui sur une jambe légèrement fléchie.",
+          "Recule la hanche d’appui en laissant la jambe libre partir derrière toi.",
+          "Garde le bassin aussi horizontal que possible et les haltères près de la jambe d’appui.",
+          "Reviens debout sans élan, puis change de côté."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Charnière de hanches sur une jambe, avec la jambe libre allongée vers l’arrière.",
+        "required_equipment": [
+          "Deux haltères",
+          "Appui stable facultatif"
+        ],
+        "common_mistakes": [
+          "Ouvrir le bassin sur le côté.",
+          "Descendre plus bas que ton équilibre ne le permet."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "b4666eeab02e95273d4249aa46265e8afcd743d1564addefe92cf9a89cdbc324.png"
+      ]
+    },
+    {
+      "key": "single-leg-leg-press",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Presse à cuisses unilatérale",
+        "language": "fr",
+        "aliases": [
+          "Single leg press",
+          "Presse une jambe"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "quadriceps",
+          "glutes"
+        ],
+        "secondary_muscles": [
+          "hamstrings"
+        ],
+        "instructions": [
+          "Installe le siège et les sécurités, puis pose un pied sur la plateforme.",
+          "Place l’autre pied à l’écart de la trajectoire, sur le support prévu par la machine.",
+          "Fléchis la jambe d’appui sans décoller le bassin.",
+          "Repousse la plateforme sans verrouiller brutalement le genou."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Presse à cuisses réalisée avec une seule jambe, bassin et dos maintenus contre le dossier.",
+        "required_equipment": [
+          "Presse à cuisses avec sécurités"
+        ],
+        "common_mistakes": [
+          "Faire tourner le bassin pendant la descente.",
+          "Utiliser la jambe libre pour aider à pousser."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "368f79466d4c632ff611ce9412c92303beaf719f9244c00fe2b2a47f64e66b93.png"
+      ]
+    },
+    {
+      "key": "standing-single-leg-curl",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Leg curl debout à une jambe",
+        "language": "fr",
+        "aliases": [
+          "Standing leg curl",
+          "Flexion jambe debout"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "hamstrings"
+        ],
+        "secondary_muscles": [
+          "calves"
+        ],
+        "instructions": [
+          "Règle le rouleau derrière la cheville et prends appui sur les poignées.",
+          "Garde le bassin stable et la cuisse de travail proche de la verticale.",
+          "Fléchis le genou pour rapprocher le talon de la fesse.",
+          "Redescends lentement et effectue l’autre jambe."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Flexion d’un genou contre le rouleau d’une machine, en restant debout.",
+        "required_equipment": [
+          "Machine leg curl debout"
+        ],
+        "common_mistakes": [
+          "Cambrer le dos pour déplacer la charge.",
+          "Projeter la cuisse vers l’avant."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "fd29afc2f74de3512fbca709ffb1872ecfdaef358d55318402517b3a2b215224.png"
+      ]
+    },
+    {
+      "key": "seated-hip-abduction-machine",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Abduction des hanches à la machine",
+        "language": "fr",
+        "aliases": [
+          "Hip abduction",
+          "Machine abducteurs"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "abductors"
+        ],
+        "secondary_muscles": [
+          "glutes"
+        ],
+        "instructions": [
+          "Règle le siège et place les coussins contre l’extérieur des cuisses.",
+          "Maintiens le bassin contre le siège et saisis les poignées.",
+          "Écarte les genoux avec contrôle dans une amplitude confortable.",
+          "Ramène les jambes sans laisser les poids retomber."
+        ],
+        "level": "beginner",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Écartement des cuisses contre résistance sur une machine assise.",
+        "required_equipment": [
+          "Machine abducteurs assise"
+        ],
+        "common_mistakes": [
+          "Rebondir en fin d’amplitude.",
+          "Se balancer pour déplacer la charge."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "eae1b71a441e912f5d429b8d65c8bbc6ef9bcd302c63baf253c1ba5765d3a94d.png"
+      ]
+    },
+    {
+      "key": "seated-hip-adduction-machine",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Adduction des hanches à la machine",
+        "language": "fr",
+        "aliases": [
+          "Hip adduction",
+          "Machine adducteurs"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "adductors"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Règle une ouverture confortable et place les coussins contre l’intérieur des cuisses.",
+          "Garde le dos soutenu et le bassin stable.",
+          "Rapproche les genoux sans accélérer brutalement.",
+          "Laisse les jambes se rouvrir lentement."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Rapprochement des cuisses contre résistance sur une machine assise.",
+        "required_equipment": [
+          "Machine adducteurs assise"
+        ],
+        "common_mistakes": [
+          "Forcer une ouverture douloureuse.",
+          "Laisser la charge tirer les jambes sans contrôle."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "41875524aac313628258e7676fd29cf151061d5ea253206acaaa5c907c5d9482.png"
+      ]
+    },
+    {
+      "key": "chest-supported-dumbbell-row",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Rowing avec haltères poitrine sur banc incliné",
+        "language": "fr",
+        "aliases": [
+          "Chest supported dumbbell row",
+          "Incline bench row"
+        ],
+        "category": "strength",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "middle_back",
+          "lats"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "shoulders"
+        ],
+        "instructions": [
+          "Allonge le thorax contre le dossier incliné avec les pieds en appui au sol.",
+          "Laisse les haltères pendre de chaque côté du banc.",
+          "Tire les coudes vers l’arrière en gardant la poitrine soutenue.",
+          "Redescends les haltères avec contrôle."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Tirage de deux haltères avec le thorax soutenu sur un banc incliné.",
+        "required_equipment": [
+          "Deux haltères",
+          "Banc incliné"
+        ],
+        "common_mistakes": [
+          "Décoller le thorax pour prendre de l’élan.",
+          "Hausser les épaules à chaque répétition."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "b2debba38c050c5a008868d850a4dfb87fab38c2aea1cccfdd5cc7dc2ba0dac8.png"
+      ]
+    },
+    {
+      "key": "chest-supported-machine-row",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Rowing à la machine avec appui poitrine",
+        "language": "fr",
+        "aliases": [
+          "Chest supported machine row",
+          "Seated machine row"
+        ],
+        "category": "strength",
+        "equipment": "machine",
+        "primary_muscles": [
+          "middle_back",
+          "lats"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "shoulders"
+        ],
+        "instructions": [
+          "Règle le siège pour atteindre les poignées sans décoller le thorax.",
+          "Pose la poitrine contre le coussin et les pieds sur les appuis.",
+          "Tire les poignées vers le buste sans te redresser en arrière.",
+          "Laisse les bras se tendre progressivement en gardant l’appui thoracique."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Tirage horizontal assis, le thorax soutenu par le coussin de la machine.",
+        "required_equipment": [
+          "Machine de rowing avec support thoracique"
+        ],
+        "common_mistakes": [
+          "Tirer en décollant la poitrine.",
+          "Ramener les épaules vers les oreilles."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "f7854bd7f19ae8685a70e8d806a0d78f9b1b5b369843c6e1fe69e236ccaec8af.png"
+      ]
+    },
+    {
+      "key": "single-arm-cable-lateral-raise",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Élévation latérale à la poulie basse à un bras",
+        "language": "fr",
+        "aliases": [
+          "Cable lateral raise",
+          "Élévation latérale poulie"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "shoulders"
+        ],
+        "secondary_muscles": [
+          "traps"
+        ],
+        "instructions": [
+          "Place-toi de côté à la poulie et saisis la poignée avec la main la plus éloignée.",
+          "Garde le coude légèrement fléchi et le buste stable.",
+          "Monte le bras sur le côté jusqu’à une hauteur confortable proche de l’épaule.",
+          "Redescends lentement, puis change de bras."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Élévation du bras sur le côté avec une poignée reliée à une poulie basse.",
+        "required_equipment": [
+          "Poulie basse",
+          "Poignée simple"
+        ],
+        "common_mistakes": [
+          "Hausser l’épaule pour lever la poignée.",
+          "Donner un coup de bassin pour démarrer."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "77b8ff1b8e14746933f900084c29e6e1b2fe7a67f2468ca09bf4a1306b836b5a.png"
+      ]
+    },
+    {
+      "key": "low-cable-chest-fly",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Écartés aux poulies basses",
+        "language": "fr",
+        "aliases": [
+          "Low to high cable fly",
+          "Écartés bas vers haut"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "chest"
+        ],
+        "secondary_muscles": [
+          "shoulders"
+        ],
+        "instructions": [
+          "Saisis les poignées des deux poulies basses et avance légèrement entre les colonnes.",
+          "Place les bras ouverts et bas avec les coudes légèrement fléchis.",
+          "Rapproche les mains devant le haut de la poitrine sans modifier fortement la flexion des coudes.",
+          "Reviens lentement vers la position ouverte."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Écartés debout en ramenant les poignées des poulies basses devant le haut du buste.",
+        "required_equipment": [
+          "Deux poulies basses",
+          "Deux poignées"
+        ],
+        "common_mistakes": [
+          "Transformer le mouvement en développé.",
+          "Monter les épaules au lieu de rapprocher les bras."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "4a72bf46953e4b1a64670e0fbb76dd0b2972833d91b283d79ad9516dfdb9293a.png"
+      ]
+    },
+    {
+      "key": "standing-cable-reverse-fly",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Oiseau debout aux poulies",
+        "language": "fr",
+        "aliases": [
+          "Cable reverse fly",
+          "Reverse cable crossover"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "shoulders"
+        ],
+        "secondary_muscles": [
+          "middle_back",
+          "traps"
+        ],
+        "instructions": [
+          "Saisis la poignée de droite avec la main gauche et inversement.",
+          "Place les bras devant toi, coudes légèrement fléchis et buste stable.",
+          "Ouvre les bras sur les côtés sans hausser les épaules.",
+          "Reviens devant toi avec contrôle, en conservant la même flexion des coudes."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Ouverture des bras vers l’arrière à partir de deux câbles croisés.",
+        "required_equipment": [
+          "Deux poulies réglées à hauteur d’épaules",
+          "Deux poignées"
+        ],
+        "common_mistakes": [
+          "Tirer avec un grand mouvement du tronc.",
+          "Plier fortement les coudes comme sur un rowing."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "0f94ab7e69cc947bb3e7e28258d71439e5f8e996d9af9672937bbd229b88639f.png"
+      ]
+    },
+    {
+      "key": "standing-cable-biceps-curl",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Curl debout à la poulie basse",
+        "language": "fr",
+        "aliases": [
+          "Cable curl",
+          "Low pulley biceps curl"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "biceps"
+        ],
+        "secondary_muscles": [
+          "forearms"
+        ],
+        "instructions": [
+          "Saisis la barre en supination et tiens-toi face à la poulie.",
+          "Garde les coudes près du corps et les poignets stables.",
+          "Fléchis les coudes pour rapprocher la barre du buste.",
+          "Redescends sans avancer les épaules ni laisser retomber la charge."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Flexion des coudes avec une barre reliée à la poulie basse.",
+        "required_equipment": [
+          "Poulie basse",
+          "Barre courte droite"
+        ],
+        "common_mistakes": [
+          "Se pencher en arrière pour soulever la charge.",
+          "Casser les poignets pendant la montée."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "2793e1e435f0d24fbcd45b226b2ac06a6b1e32eb3d46e2563391b3d787322cc4.png"
+      ]
+    },
+    {
+      "key": "overhead-cable-rope-triceps-extension",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Extension des triceps au-dessus de la tête à la corde",
+        "language": "fr",
+        "aliases": [
+          "Overhead cable triceps extension",
+          "Extension triceps poulie haute tête"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "triceps"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Saisis la corde reliée à la poulie basse et tourne le dos à la machine.",
+          "Place les mains derrière la tête avec les bras dirigés vers le haut.",
+          "Tends les coudes en maintenant les bras aussi stables que possible.",
+          "Replie les coudes lentement sans cambrer le bas du dos."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "isolation",
+        "description": "Extension des coudes au-dessus de la tête, dos à une poulie basse et corde tenue à deux mains.",
+        "required_equipment": [
+          "Poulie basse",
+          "Corde double"
+        ],
+        "common_mistakes": [
+          "Écarter excessivement les coudes.",
+          "Compenser en accentuant la cambrure."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "adb01fc2253053bb9641047a5e74a38c872f6c0ad3bccf60aa65e7320f68a826.png"
+      ]
+    },
+    {
+      "key": "weighted-pronated-pull-up",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Tractions lestées en pronation",
+        "language": "fr",
+        "aliases": [
+          "Weighted pull-up",
+          "Tractions lestées"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "lats"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "middle_back",
+          "forearms"
+        ],
+        "instructions": [
+          "Fixe le lest à la ceinture et prends la barre en pronation.",
+          "Stabilise la suspension avant de commencer la montée.",
+          "Tire pour amener le menton au-dessus de la barre sans balancer le lest.",
+          "Redescends avec contrôle jusqu’à une suspension maîtrisée."
+        ],
+        "level": "expert",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Tractions en pronation avec une charge externe fixée à une ceinture.",
+        "required_equipment": [
+          "Barre de traction",
+          "Ceinture de lest et disque"
+        ],
+        "common_mistakes": [
+          "Lancer les jambes pour passer la barre.",
+          "Ajouter du lest au détriment de l’amplitude contrôlée."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "13f29dfe93ad9137aade7e64f8e48cadc16f1cbdf71669b92d91bc4d7f57d986.png"
+      ]
+    },
+    {
+      "key": "weighted-parallel-bar-dips",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Dips lestés aux barres parallèles",
+        "language": "fr",
+        "aliases": [
+          "Weighted dips",
+          "Dips lestés"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "triceps",
+          "chest"
+        ],
+        "secondary_muscles": [
+          "shoulders"
+        ],
+        "instructions": [
+          "Fixe la charge à la ceinture et prends appui bras tendus sur les barres.",
+          "Stabilise les épaules et le lest avant de descendre.",
+          "Fléchis les coudes dans une amplitude que tu contrôles sans douleur.",
+          "Repousse les barres pour revenir en appui stable."
+        ],
+        "level": "expert",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Dips avec une charge externe suspendue à une ceinture de lest.",
+        "required_equipment": [
+          "Barres parallèles",
+          "Ceinture de lest et disque"
+        ],
+        "common_mistakes": [
+          "Laisser la charge se balancer.",
+          "Descendre plus bas que l’amplitude maîtrisée."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "30ded5d4e8ded0f65ebf1b81430bb5c799dc9aa78568e009eca28c4b52707d3b.png"
+      ]
+    },
+    {
+      "key": "hanging-knee-raise",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Relevés de genoux suspendu",
+        "language": "fr",
+        "aliases": [
+          "Hanging knee raise",
+          "Knee raises"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "abdominals"
+        ],
+        "secondary_muscles": [
+          "forearms"
+        ],
+        "instructions": [
+          "Suspends-toi à la barre et stabilise le corps.",
+          "Fléchis les genoux et rapproche-les du buste en enroulant légèrement le bassin.",
+          "Garde les épaules actives et évite de prendre de l’élan.",
+          "Redescends les jambes lentement avant la répétition suivante."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Montée contrôlée des genoux en suspension, sans recherche de contact avec la barre.",
+        "required_equipment": [
+          "Barre de traction"
+        ],
+        "common_mistakes": [
+          "Balancer les jambes pour monter.",
+          "Laisser le bas du dos se cambrer à la descente."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "5e5489c281a16314d2c29a80201c5a87438a13d8f8bf12a3557317a155df4fbf.png"
+      ]
+    },
+    {
+      "key": "side-forearm-plank",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Gainage latéral sur avant-bras",
+        "language": "fr",
+        "aliases": [
+          "Side plank",
+          "Planche latérale"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "abdominals"
+        ],
+        "secondary_muscles": [
+          "shoulders",
+          "glutes"
+        ],
+        "instructions": [
+          "Allonge-toi sur le côté et place le coude sous l’épaule.",
+          "Prends appui sur l’avant-bras et le côté des pieds pour soulever le bassin.",
+          "Maintiens la tête, le bassin et les chevilles alignés en respirant.",
+          "Repose le bassin avec contrôle et change de côté."
+        ],
+        "level": "beginner",
+        "force": "static",
+        "mechanic": "compound",
+        "description": "Maintien du corps sur un avant-bras et le côté des pieds, de profil.",
+        "required_equipment": [
+          "Tapis facultatif"
+        ],
+        "common_mistakes": [
+          "Laisser le bassin s’affaisser.",
+          "Faire rouler le buste vers le sol."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "ff4d76400ac1499661dd1d262d7c07eb80e0619e0123d741e799ae91e4a9c795.png"
+      ]
+    },
+    {
+      "key": "dead-bug",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Dead bug alterné au sol",
+        "language": "fr",
+        "aliases": [
+          "Dead bug",
+          "Extension bras jambe opposés"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "abdominals"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Allonge-toi avec les bras vers le plafond et les hanches et genoux fléchis.",
+          "Garde le bassin stable et expire en allongeant un bras et la jambe opposée.",
+          "Arrête l’extension avant de perdre le contrôle du bas du dos.",
+          "Reviens au centre et alterne l’autre diagonale."
+        ],
+        "level": "beginner",
+        "force": "static",
+        "mechanic": "compound",
+        "description": "Extension alternée d’un bras et de la jambe opposée, allongé sur le dos.",
+        "required_equipment": [
+          "Tapis facultatif"
+        ],
+        "common_mistakes": [
+          "Creuser le bas du dos pendant l’extension.",
+          "Étendre le bras et la jambe du même côté."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "6b714e0762dc547558d68fbc7718a78559a8466667decbb7a2923946332b7aee.png"
+      ]
+    },
+    {
+      "key": "kneeling-cable-crunch",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Crunch à genoux à la poulie haute",
+        "language": "fr",
+        "aliases": [
+          "Cable crunch",
+          "Crunch poulie haute"
+        ],
+        "category": "strength",
+        "equipment": "cable",
+        "primary_muscles": [
+          "abdominals"
+        ],
+        "secondary_muscles": [],
+        "instructions": [
+          "Agenouille-toi face à la poulie et tiens la corde de chaque côté de la tête.",
+          "Garde les hanches relativement stables et les mains près des tempes.",
+          "Enroule le buste pour rapprocher les côtes du bassin.",
+          "Déroule lentement sans tirer principalement avec les bras."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "isolation",
+        "description": "Enroulement du buste à genoux contre la résistance d’une poulie haute.",
+        "required_equipment": [
+          "Poulie haute",
+          "Corde double",
+          "Tapis facultatif"
+        ],
+        "common_mistakes": [
+          "Transformer le mouvement en flexion des hanches.",
+          "Tirer la corde avec les bras."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "2aa69a1a7b63c4573a0df0f3c357569da7778151bba40da206a28a36bc573fa7.png"
+      ]
+    },
+    {
+      "key": "fan-resistance-air-bike",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Vélo à air avec bras mobiles",
+        "language": "fr",
+        "aliases": [
+          "Air bike",
+          "Assault bike",
+          "Echo bike"
+        ],
+        "category": "cardio",
+        "equipment": "machine",
+        "primary_muscles": [
+          "quadriceps"
+        ],
+        "secondary_muscles": [
+          "glutes",
+          "hamstrings",
+          "shoulders",
+          "triceps"
+        ],
+        "instructions": [
+          "Règle la selle pour garder le genou légèrement fléchi en bas du pédalage.",
+          "Pose les pieds sur les pédales et saisis les poignées mobiles.",
+          "Pédale en coordonnant les bras, avec un buste stable.",
+          "Adapte la cadence à l’effort prévu et ralentis progressivement pour terminer."
+        ],
+        "level": "beginner",
+        "force": null,
+        "mechanic": null,
+        "description": "Pédalage sur un vélo à résistance à air en alternant poussée et traction des bras.",
+        "required_equipment": [
+          "Vélo à air avec poignées mobiles"
+        ],
+        "common_mistakes": [
+          "Balancer excessivement le buste.",
+          "Régler la selle trop bas."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "58afcff9cbe36b8ed6985c8285fc5f8f8313e79c2388205479b8bfd60be19377.png"
+      ]
+    },
+    {
+      "key": "double-pole-ski-erg",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "SkiErg en double poussée",
+        "language": "fr",
+        "aliases": [
+          "SkiErg",
+          "Ski erg",
+          "Double poling"
+        ],
+        "category": "cardio",
+        "equipment": "machine",
+        "primary_muscles": [
+          "lats",
+          "abdominals"
+        ],
+        "secondary_muscles": [
+          "triceps",
+          "shoulders",
+          "glutes"
+        ],
+        "instructions": [
+          "Place-toi face à l’appareil, pieds stables, avec les mains au-dessus des yeux.",
+          "Engage le tronc et tire les poignées vers le bas en fléchissant légèrement les genoux.",
+          "Termine avec les mains près des hanches, sans tirer loin derrière toi.",
+          "Redresse-toi en laissant les bras remonter pour préparer le cycle suivant."
+        ],
+        "level": "beginner",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Traction simultanée des deux poignées d’un ergomètre de ski, avec participation du tronc et des jambes.",
+        "required_equipment": [
+          "Ergomètre de ski à deux poignées"
+        ],
+        "common_mistakes": [
+          "Faire un squat profond à chaque traction.",
+          "Tirer uniquement avec les bras."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.concept2.com/blog/skierg-technique"
+      ],
+      "illustrations": [
+        "33b9bb412ef1b75c33841cd5a8e93222adb3ae584422fca5c633736a905bc61d.png"
+      ]
+    },
+    {
+      "key": "dumbbell-farmers-carry",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Marche du fermier avec haltères",
+        "language": "fr",
+        "aliases": [
+          "Farmer carry",
+          "Farmers walk",
+          "Farmer walk"
+        ],
+        "category": "strongman",
+        "equipment": "dumbbell",
+        "primary_muscles": [
+          "forearms"
+        ],
+        "secondary_muscles": [
+          "traps",
+          "abdominals",
+          "glutes",
+          "quadriceps"
+        ],
+        "instructions": [
+          "Soulève les haltères en gardant les appuis stables et les charges près du corps.",
+          "Redresse-toi avec les bras tendus et les épaules stabilisées.",
+          "Marche à petits pas réguliers sans te pencher sur un côté.",
+          "Arrête-toi puis repose les haltères en fléchissant les hanches et les genoux."
+        ],
+        "level": "intermediate",
+        "force": "static",
+        "mechanic": "compound",
+        "description": "Marche avec un haltère dans chaque main, bras le long du corps et tronc stable.",
+        "required_equipment": [
+          "Deux haltères",
+          "Couloir dégagé"
+        ],
+        "common_mistakes": [
+          "Se balancer d’un côté à l’autre.",
+          "Avancer trop vite pour garder les charges stables."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.crossfit.com/at-home/farmers-carry"
+      ],
+      "illustrations": [
+        "f0a3220292ba32a972c60e249d6cacd87b95429138a1dbe827d92c43379928e2.png"
+      ]
+    },
+    {
+      "key": "weighted-sled-push",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Poussée de traîneau",
+        "language": "fr",
+        "aliases": [
+          "Sled push",
+          "Prowler push"
+        ],
+        "category": "strongman",
+        "equipment": "other",
+        "primary_muscles": [
+          "quadriceps",
+          "glutes"
+        ],
+        "secondary_muscles": [
+          "calves",
+          "shoulders",
+          "abdominals"
+        ],
+        "instructions": [
+          "Charge le traîneau selon l’effort prévu et saisis fermement les montants.",
+          "Incline le corps en gardant le tronc stable et les bras en appui.",
+          "Avance avec des pas courts en poussant le sol derrière toi.",
+          "Ralentis et stabilise le traîneau avant de relâcher les poignées."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Déplacement d’un traîneau chargé en poussant ses montants sur une piste adaptée.",
+        "required_equipment": [
+          "Traîneau de poussée",
+          "Piste adaptée",
+          "Disques de charge"
+        ],
+        "common_mistakes": [
+          "Arrondir le dos pour faire avancer la charge.",
+          "Faire des pas trop longs qui bloquent la progression."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "537780dd8faa4feb8fbf0c32f18432a40ac651e577a7693180c681cc006b57e6.png"
+      ]
+    },
+    {
+      "key": "sled-rope-pull",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Traction de traîneau à la corde",
+        "language": "fr",
+        "aliases": [
+          "Sled pull",
+          "Rope sled pull"
+        ],
+        "category": "strongman",
+        "equipment": "other",
+        "primary_muscles": [
+          "lats",
+          "middle_back"
+        ],
+        "secondary_muscles": [
+          "biceps",
+          "forearms",
+          "glutes",
+          "abdominals"
+        ],
+        "instructions": [
+          "Fixe la corde au traîneau et place-toi face à lui avec des appuis stables.",
+          "Fléchis légèrement les genoux et garde le tronc solide.",
+          "Tire la corde main après main pour rapprocher le traîneau.",
+          "Range la corde hors des pieds et ajuste tes appuis sans à-coups."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Rapprochement d’un traîneau chargé en tirant une corde alternativement avec les deux mains.",
+        "required_equipment": [
+          "Traîneau",
+          "Corde solidement fixée",
+          "Piste adaptée"
+        ],
+        "common_mistakes": [
+          "S’enrouler la corde autour des mains ou du corps.",
+          "Tirer en arrondissant fortement le dos."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "3f418272cf120f0691b5d678ab68a7a7fdc3dc55e6421e161f0d66a4c8c6f61f.png"
+      ]
+    },
+    {
+      "key": "standing-barbell-overhead-press",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Développé militaire debout à la barre",
+        "language": "fr",
+        "aliases": [
+          "Strict press",
+          "Military press",
+          "Shoulder press barre"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "shoulders"
+        ],
+        "secondary_muscles": [
+          "triceps",
+          "abdominals"
+        ],
+        "instructions": [
+          "Prends la barre devant les épaules avec les mains légèrement plus écartées que celles-ci.",
+          "Gaine le tronc et garde les genoux et les hanches stables.",
+          "Pousse la barre au-dessus de la tête en la gardant proche du visage.",
+          "Redescends avec contrôle vers les épaules sans creuser le dos."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Développé de la barre au-dessus de la tête sans impulsion des jambes.",
+        "required_equipment": [
+          "Barre et disques",
+          "Rack adapté"
+        ],
+        "common_mistakes": [
+          "Donner une impulsion avec les jambes comme au push press.",
+          "Se pencher en arrière pour contourner le visage."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.crossfit.com/crossfit-movements"
+      ],
+      "illustrations": [
+        "7da7649c9e0a6f5a95877172e92e9a0abd77a80f047bf7613240835d9bfe7efb.png"
+      ]
+    },
+    {
+      "key": "incline-barbell-bench-press",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Développé incliné à la barre",
+        "language": "fr",
+        "aliases": [
+          "Incline barbell bench press",
+          "Incline bench"
+        ],
+        "category": "strength",
+        "equipment": "barbell",
+        "primary_muscles": [
+          "chest"
+        ],
+        "secondary_muscles": [
+          "shoulders",
+          "triceps"
+        ],
+        "instructions": [
+          "Règle le banc avec une inclinaison modérée et installe les sécurités.",
+          "Saisis la barre et stabilise les omoplates contre le dossier.",
+          "Descends la barre avec contrôle vers le haut de la poitrine.",
+          "Repousse la barre sans décoller les appuis du banc."
+        ],
+        "level": "intermediate",
+        "force": "push",
+        "mechanic": "compound",
+        "description": "Développé de la barre sur un banc incliné, avec les pieds stables au sol.",
+        "required_equipment": [
+          "Banc incliné",
+          "Barre et disques",
+          "Rack et sécurités"
+        ],
+        "common_mistakes": [
+          "Incliner le banc au point de transformer le geste en développé épaules.",
+          "Rebondir sur la poitrine."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "8e6f3cf410be6d38f39107df390482c910313a840ed0a08e8d687a01a701dd36.png"
+      ]
+    },
+    {
+      "key": "forty-five-degree-back-extension",
+      "authored_on": "2026-10-17",
+      "data": {
+        "name": "Extension de hanches sur banc à 45 degrés",
+        "language": "fr",
+        "aliases": [
+          "Back extension",
+          "Hyperextension 45 degrés",
+          "Banc lombaire"
+        ],
+        "category": "strength",
+        "equipment": "bodyweight",
+        "primary_muscles": [
+          "glutes",
+          "hamstrings"
+        ],
+        "secondary_muscles": [
+          "lower_back"
+        ],
+        "instructions": [
+          "Règle le coussin sous les hanches et cale les chevilles sur les supports.",
+          "Croise les bras devant le thorax et garde le dos stable.",
+          "Fléchis aux hanches pour incliner le buste dans une amplitude contrôlée.",
+          "Remonte jusqu’à aligner le buste et les jambes, sans te cambrer au-delà."
+        ],
+        "level": "intermediate",
+        "force": "pull",
+        "mechanic": "compound",
+        "description": "Extension des hanches sur un banc incliné, sans dépasser l’alignement du corps en haut.",
+        "required_equipment": [
+          "Banc à extensions à 45 degrés"
+        ],
+        "common_mistakes": [
+          "Remonter au-delà de l’alignement en creusant le dos.",
+          "Arrondir puis redresser le dos avec élan."
+        ]
+      },
+      "media_note": "Illustration originale CoachConnect, générée par IA puis contrôlée pour la variante et le matériel.",
+      "references": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/"
+      ],
+      "illustrations": [
+        "3632dbda26219fd57cf1cbea73d4bf51c8fb30c3bcb6cde897ad2d2d572b14c3.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "source_ref": "be983c86ff56090900abae35fb51ee83b3e73ac3",
+  "issues": [
+    {
+      "source_id": "barbell-rear-delt-row",
+      "note": "La position des coudes illustre un rowing standard, pas le rear-delt row."
+    },
+    {
+      "source_id": "bent-arm-barbell-pullover",
+      "note": "La flexion des coudes ne distingue pas clairement la variante bent-arm."
+    },
+    {
+      "source_id": "double-kettlebell-jerk",
+      "note": "Le matériel dessiné dans la position rack ressemble à des haltères."
+    },
+    {
+      "source_id": "double-kettlebell-push-press",
+      "note": "Le matériel dessiné dans la position rack ressemble à des haltères."
+    },
+    {
+      "source_id": "dumbbell-side-bend",
+      "note": "Les illustrations montrent deux haltères, la fiche en prescrit un."
+    },
+    {
+      "source_id": "cable-external-rotation",
+      "note": "La séquence représentée ne confirme pas une rotation externe."
+    },
+    {
+      "source_id": "bench-leg-pull-in",
+      "note": "Les images montrent la variante assise, la fiche décrit la variante allongée."
+    },
+    {
+      "source_id": "floor-press",
+      "note": "Les images montrent des haltères au lieu de la barre."
+    },
+    {
+      "source_id": "handstand-push-ups",
+      "note": "Pas de mur et présence de parallettes : variante différente de celle décrite."
+    },
+    {
+      "source_id": "hanging-leg-raise",
+      "note": "Les images montrent les genoux fléchis au lieu des jambes tendues."
+    },
+    {
+      "source_id": "machine-triceps-extension",
+      "note": "Le support des bras et le mécanisme de la machine ne correspondent pas clairement."
+    },
+    {
+      "source_id": "reverse-curl",
+      "note": "La prise pronation de la variante reverse ne peut pas être confirmée visuellement."
+    },
+    {
+      "source_id": "russian-twist",
+      "note": "La posture représentée ne correspond pas clairement au V assis au sol."
+    },
+    {
+      "source_id": "single-leg-extension",
+      "note": "La réalisation unilatérale ne peut pas être confirmée sur le visuel."
+    },
+    {
+      "source_id": "smith-machine-incline-bench-press",
+      "note": "Les images montrent une position verticale de shoulder press au lieu du banc incliné."
+    },
+    {
+      "source_id": "smith-machine-shoulder-press",
+      "note": "Les images montrent la position debout au lieu de la variante assise."
+    },
+    {
+      "source_id": "split-jerk",
+      "note": "La réception montre le genou au sol au lieu du split jerk."
+    },
+    {
+      "source_id": "double-kettlebell-clean",
+      "note": "La position rack représente des haltères au lieu de kettlebells."
+    },
+    {
+      "source_id": "zottman-curl",
+      "note": "Aucune image ne montre la phase de curl, seulement deux positions bras baissés."
+    }
+  ]
+}

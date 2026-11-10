@@ -1,0 +1,1 @@
+"""CoachConnect exercise catalogue."""

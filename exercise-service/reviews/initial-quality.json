@@ -1,0 +1,216 @@
+[
+  {
+    "_id": "c65e020c-af75-5aab-807b-eeb7a6c87128",
+    "source_key": "free-exercise-db:All_Fours_Quad_Stretch",
+    "action": "correct",
+    "reviewer": "Codex",
+    "note": "Nettoyage structurel : priorité aux muscles primaires déclarés par la source et retrait des lignes de consigne vides. Aucun muscle ni consigne ajouté.",
+    "raw_hash": "8ab5ebb5832be899f1aef345ba61931be26811c67414760b79ada40332c3f145",
+    "patch": {
+      "secondaryMuscles": []
+    },
+    "decision_signature": null
+  },
+  {
+    "_id": "df18f020-71ab-5232-aa11-5d999647464d",
+    "source_key": "free-exercise-db:Barbell_Squat_To_A_Bench",
+    "action": "correct",
+    "reviewer": "Codex",
+    "note": "Nettoyage structurel : priorité aux muscles primaires déclarés par la source et retrait des lignes de consigne vides. Aucun muscle ni consigne ajouté.",
+    "raw_hash": "efd3ecfb62c1e9e13c835e519ca2464fd4593a78f5b07068ee3592fdb3a4f29d",
+    "patch": {
+      "instructions": [
+        "This exercise is best performed inside a squat rack for safety purposes. To begin, first place a flat bench or a box behind you. The flat bench is used to teach you to set your hips back and to hit depth.",
+        "Then, set the bar on a rack that best matches your height. Once the correct height is chosen and the bar is loaded, step under the bar and place the back of your shoulders (slightly below the neck) across it.",
+        "Hold on to the bar using both arms at each side and lift it off the rack by first pushing with your legs and at the same time straightening your torso.",
+        "Step away from the rack and position your legs using a shoulder width medium stance with the toes slightly pointed out. Keep your head up at all times as looking down will get you off balance and also maintain a straight back. This will be your starting position. (Note: For the purposes of this discussion we will use the medium stance described above which targets overall development; however you can choose any of the three stances discussed in the foot stances section).",
+        "Begin to slowly lower the bar by bending the knees and sitting your hips back as you maintain a straight posture with the head up. Continue down until you slightly touch the bench behind you. Inhale as you perform this portion of the movement. Tip: If you performed the exercise correctly, the front of the knees should make an imaginary straight line with the toes that is perpendicular to the front. If your knees are past that imaginary line (if they are past your toes) then you are placing undue stress on the knee and the exercise has been performed incorrectly.",
+        "Begin to raise the bar as you exhale by pushing the floor with the heel of your foot as you straighten the legs and extend the hips to go back to the starting position.",
+        "Repeat for the recommended amount of repetitions."
+      ]
+    },
+    "decision_signature": null
+  },
+  {
+    "_id": "b4a52ec6-cf04-58b8-8cd7-2075549d5abd",
+    "source_key": "free-exercise-db:Barbell_Step_Ups",
+    "action": "correct",
+    "reviewer": "Codex",
+    "note": "Nettoyage structurel : priorité aux muscles primaires déclarés par la source et retrait des lignes de consigne vides. Aucun muscle ni consigne ajouté.",
+    "raw_hash": "da33f07483dae543a9af440e4cda672ef4065c26fd7deb0f4dee13c68b7b0ac9",
+    "patch": {
+      "secondaryMuscles": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "decision_signature": null
+  },
+  {
+    "_id": "b605bd24-07ec-5f9a-841c-21051ffe9fb4",
+    "source_key": "free-exercise-db:Bent-Arm_Barbell_Pullover",
+    "action": "correct",
+    "reviewer": "Codex",
+    "note": "Nettoyage structurel : priorité aux muscles primaires déclarés par la source et retrait des lignes de consigne vides. Aucun muscle ni consigne ajouté.",
+    "raw_hash": "c055e7d737a3a73a7981cc72a2e67ea29defdde37fc6e7e1a4fc7d4b2c6843bb",
+    "patch": {
+      "secondaryMuscles": [
+        "chest",
+        "shoulders",
+        "triceps"
+      ]
+    },
+    "decision_signature": null
+  },
+  {
+    "_id": "5184aba6-035e-5d49-89e4-b7c276744b35",
+    "source_key": "free-exercise-db:Clean",
+    "action": "correct",
+    "reviewer": "Codex",
+    "note": "Nettoyage structurel : priorité aux muscles primaires déclarés par la source et retrait des lignes de consigne vides. Aucun muscle ni consigne ajouté.",
+    "raw_hash": "81a69b3ac07072d8231ad3067be5923bffb6c5f0768bdfed4d72b47257e2f9af",
+    "patch": {
+      "instructions": [
+        "With a barbell on the floor close to the shins, take an overhand (or hook) grip just outside the legs. Lower your hips with the weight focused on the heels, back straight, head facing forward, chest up, with your shoulders just in front of the bar. This will be your starting position.",
+        "Begin the first pull by driving through the heels, extending your knees. Your back angle should stay the same, and your arms should remain straight. Move the weight with control as you continue to above the knees.",
+        "Next comes the second pull, the main source of acceleration for the clean. As the bar approaches the mid-thigh position, begin extending through the hips. In a jumping motion, accelerate by extending the hips, knees, and ankles, using speed to move the bar upward. There should be no need to actively pull through the arms to accelerate the weight; at the end of the second pull, the body should be fully extended, leaning slightly back, with the arms still extended.",
+        "As full extension is achieved, transition into the third pull by aggressively shrugging and flexing the arms with the elbows up and out. At peak extension, aggressively pull yourself down, rotating your elbows under the bar as you do so. Receive the bar in a front squat position, the depth of which is dependent upon the height of the bar at the end of the third pull. The bar should be racked onto the protracted shoulders, lightly touching the throat with the hands relaxed. Continue to descend to the bottom squat position, which will help in the recovery.",
+        "Immediately recover by driving through the heels, keeping the torso upright and elbows up. Continue until you have risen to a standing position."
+      ]
+    },
+    "decision_signature": null
+  },
+  {
+    "_id": "1f7ca382-fd84-59d3-9b4d-a74da781da32",
+    "source_key": "free-exercise-db:Clean_and_Press",
+    "action": "correct",
+    "reviewer": "Codex",
+    "note": "Nettoyage structurel : priorité aux muscles primaires déclarés par la source et retrait des lignes de consigne vides. Aucun muscle ni consigne ajouté.",
+    "raw_hash": "45f34db568e82fc99a11ad3680abfae0e058c5eaf27f8fe2fb2b8a3dd8b357e9",
+    "patch": {
+      "secondaryMuscles": [
+        "abdominals",
+        "calves",
+        "glutes",
+        "hamstrings",
+        "lower back",
+        "middle back",
+        "quadriceps",
+        "traps",
+        "triceps"
+      ]
+    },
+    "decision_signature": null
+  },
+  {
+    "_id": "508871ae-f514-5ce1-852a-358628b0e75a",
+    "source_key": "free-exercise-db:Hurdle_Hops",
+    "action": "correct",
+    "reviewer": "Codex",
+    "note": "Nettoyage structurel : priorité aux muscles primaires déclarés par la source et retrait des lignes de consigne vides. Aucun muscle ni consigne ajouté.",
+    "raw_hash": "ed1b13a4fcff5f8a5ac1c3b8495e2954806fe1ffe273386f81aea2bb2b5d6637",
+    "patch": {
+      "secondaryMuscles": [
+        "abductors",
+        "adductors",
+        "calves",
+        "glutes"
+      ]
+    },
+    "decision_signature": null
+  },
+  {
+    "_id": "9f06827d-2209-533b-8bd2-49cc1bdca1b6",
+    "source_key": "free-exercise-db:Kneeling_Hip_Flexor",
+    "action": "correct",
+    "reviewer": "Codex",
+    "note": "Nettoyage structurel : priorité aux muscles primaires déclarés par la source et retrait des lignes de consigne vides. Aucun muscle ni consigne ajouté.",
+    "raw_hash": "3eb4daf2db8966d0bd220906bfc5d8f769e1c5c2eba7d91712ae24237f33a795",
+    "patch": {
+      "secondaryMuscles": []
+    },
+    "decision_signature": null
+  },
+  {
+    "_id": "bcf2fbe8-f9c9-5f97-9437-2790e74b5f42",
+    "source_key": "free-exercise-db:One_Arm_Supinated_Dumbbell_Triceps_Extension",
+    "action": "distinct",
+    "reviewer": "Codex",
+    "note": "Variante distincte vérifiée dans les consignes source : prise supination contre pronation.",
+    "raw_hash": "ed265510413cc716b7d61c5665eb7570e05db99769d8db58ffaba330d3fb9c6e",
+    "patch": {},
+    "decision_signature": "b11c923c7c45f7e2d777d583d1bbb3820b82b9f1f95d988ea6ef3a42edfa023d"
+  },
+  {
+    "_id": "cf4ad0e0-398d-5905-b18b-7c76b17ff53a",
+    "source_key": "free-exercise-db:Seated_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension",
+    "action": "distinct",
+    "reviewer": "Codex",
+    "note": "Variante distincte vérifiée dans les consignes source : deux bras contre un bras.",
+    "raw_hash": "d5cf1b777d6fa95b8b2b6905f400f932d07521fa286c888ddb37b21da2144cee",
+    "patch": {},
+    "decision_signature": "c7b72bc7f6ddcbcbdc3ec18325f8cf2c476599d368f63f7765d8a0965c8dd8be"
+  },
+  {
+    "_id": "7c8bd125-92c7-57b6-81a8-9e543837f15f",
+    "source_key": "free-exercise-db:Snatch_Deadlift",
+    "action": "correct",
+    "reviewer": "Codex",
+    "note": "Nettoyage structurel : priorité aux muscles primaires déclarés par la source et retrait des lignes de consigne vides. Aucun muscle ni consigne ajouté.",
+    "raw_hash": "ce75c3d50a5444b24ef41128039b2efc4831a07a9e24053993999f601fe5f6d9",
+    "patch": {
+      "secondaryMuscles": [
+        "forearms",
+        "glutes",
+        "lower back",
+        "quadriceps",
+        "traps"
+      ]
+    },
+    "decision_signature": null
+  },
+  {
+    "_id": "9fc4da15-599a-5be1-b685-39e2980b29b5",
+    "source_key": "free-exercise-db:Split_Snatch",
+    "action": "correct",
+    "reviewer": "Codex",
+    "note": "Nettoyage structurel : priorité aux muscles primaires déclarés par la source et retrait des lignes de consigne vides. Aucun muscle ni consigne ajouté.",
+    "raw_hash": "8a3f3fad73a0ae846df9348d2b3e23e345aa0494bdff65e301ee62457922f50c",
+    "patch": {
+      "secondaryMuscles": [
+        "calves",
+        "forearms",
+        "glutes",
+        "lower back",
+        "quadriceps",
+        "shoulders",
+        "traps",
+        "triceps"
+      ]
+    },
+    "decision_signature": null
+  },
+  {
+    "_id": "d5feb1cd-60da-5036-b7a6-2a2d9a891dc1",
+    "source_key": "free-exercise-db:Standing_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension",
+    "action": "distinct",
+    "reviewer": "Codex",
+    "note": "Variante distincte vérifiée dans les consignes source : deux bras contre un bras.",
+    "raw_hash": "b5389f85487c2f5fd82a93382ff943417bc20e5df675bb448a2e156f02383273",
+    "patch": {},
+    "decision_signature": "bceecd810d00952ead691479548d34972ddc16e6c63b06e28e83daca0f4e8bde"
+  },
+  {
+    "_id": "8b11ca1a-17e5-5b4e-95f3-976c84e08322",
+    "source_key": "free-exercise-db:Upper_Back_Stretch",
+    "action": "correct",
+    "reviewer": "Codex",
+    "note": "Nettoyage structurel : priorité aux muscles primaires déclarés par la source et retrait des lignes de consigne vides. Aucun muscle ni consigne ajouté.",
+    "raw_hash": "9b9bf8e96965b3a847668ca8a5497a2121e2b60f969f2cb7d6e4813253b7abc5",
+    "patch": {
+      "secondaryMuscles": []
+    },
+    "decision_signature": null
+  }
+]

@@ -1,0 +1,880 @@
+{
+  "source_ref": "be983c86ff56090900abae35fb51ee83b3e73ac3",
+  "links": [
+    {
+      "source_key": "free-exercise-db:Ab_Roller",
+      "target_hash": "df2eb2ce3bc42081647d5a202c3e59f4125b4f841c2d02117ec9865edbd564be",
+      "source_id": "ab-wheel-rollout",
+      "source_title": "Ab Wheel Rollout",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Alternate_Heel_Touchers",
+      "target_hash": "a92c4626e63fe2812b0187d437e3a72ec943ef1036fb995be732f9f318afd354",
+      "source_id": "heel-touches",
+      "source_title": "Heel Touches",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Arnold_Dumbbell_Press",
+      "target_hash": "1d3c999c6523893ea1e67e688c01eccddce8c017017e58286f6bd0efe05bdf9d",
+      "source_id": "arnold-press",
+      "source_title": "Arnold Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Ball_Leg_Curl",
+      "target_hash": "3c98a890cb2c08dfd2a4ae8fd70aa3a864b29c64b39ce1fb9982d6a4b746dcae",
+      "source_id": "ball-leg-curl",
+      "source_title": "Stability Ball Leg Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Band_Good_Morning",
+      "target_hash": "740d528da33a8b26e8cce9670a1d4c943c8fb73baa545d5a5516ad5506feb86b",
+      "source_id": "banded-good-morning",
+      "source_title": "Banded Good Morning",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Band_Pull_Apart",
+      "target_hash": "a137abd6d271124a454a44739c0c4b6e09f2a84069e755b14fd81946ce70ff22",
+      "source_id": "band-pull-apart",
+      "source_title": "Band Pull Apart",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Barbell_Curl",
+      "target_hash": "a6c6055e8488520b201ffe4cbeeeeecc85aefeecf6ad2c04ff96bc5cb584b24b",
+      "source_id": "barbell-curl",
+      "source_title": "Barbell Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Barbell_Glute_Bridge",
+      "target_hash": "126fa464fcfa4456ddf109e37b31b5b9575b9a70645194ff6c70ae99687cca3a",
+      "source_id": "barbell-glute-bridge",
+      "source_title": "Barbell Glute Bridge",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Barbell_Hip_Thrust",
+      "target_hash": "3c659c1a68497c673f20b0a41241eb9bf70288b18f8997a60ca9c25e5097b8bd",
+      "source_id": "hip-thrust",
+      "source_title": "Barbell Hip Thrust",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Barbell_Shoulder_Press",
+      "target_hash": "53e332e9ace248cdb222d094cde8d96b3a558de0adccd332571c5f699c825b1b",
+      "source_id": "seated-barbell-overhead-press",
+      "source_title": "Seated Barbell Overhead Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Barbell_Shrug_Behind_The_Back",
+      "target_hash": "5e8bd0da666d9f0b2361558474040c82ec6968ad8789b36c6c0cf549a1ef7eee",
+      "source_id": "behind-the-back-barbell-shrug",
+      "source_title": "Behind the Back Barbell Shrug",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Bent_Over_Barbell_Row",
+      "target_hash": "b2ac3921e0a9a8bf188c8f683373c6a346511e9b9c18252759e40658a66e5f1d",
+      "source_id": "barbell-row",
+      "source_title": "Bent-Over Barbell Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Bent_Over_Two-Dumbbell_Row",
+      "target_hash": "3aab9a10070d7019f91097d121e5a8ad9713300a1593f36929a805aa483f1d2d",
+      "source_id": "bent-over-db-row",
+      "source_title": "Bent-Over Dumbbell Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Bodyweight_Squat",
+      "target_hash": "e7d734dfe415901b1114581046b48e310410a5be190e2ba5be8afeb855cf73db",
+      "source_id": "bodyweight-squat",
+      "source_title": "Bodyweight Squat",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Butt_Lift_Bridge",
+      "target_hash": "011e8e5a0ec6d3b5e14d19e43afbf615026727fc7fef5779ded7ab10679d79a5",
+      "source_id": "glute-bridge",
+      "source_title": "Glute Bridge",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Cable_Crossover",
+      "target_hash": "e40f3f74863c69aab77f811f0c256e0f3019edc4d6bd260df2dc42aa3da49d6b",
+      "source_id": "cable-fly",
+      "source_title": "Cable Fly",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Cable_Crunch",
+      "target_hash": "3ca390c28815d13697bfbdc0a9dfedae2010b56b29fadd9f0013a57b887c1c2c",
+      "source_id": "cable-crunch",
+      "source_title": "Cable Crunch",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Cable_Wrist_Curl",
+      "target_hash": "a245c9742f307c5c5bd52e62a0dfce2fe3050ef0024b88d307c855654b467895",
+      "source_id": "cable-wrist-curl",
+      "source_title": "Cable Wrist Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Cat_Stretch",
+      "target_hash": "42efa6db64c9760f5b4231af91d198e7ba57e107afb42f9f25ce2723b3746846",
+      "source_id": "cat-stretch",
+      "source_title": "Cat Stretch",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Childs_Pose",
+      "target_hash": "a37bbaf600002e230319529fb01dfca232f9935a9909c434c1ab266ca9c2549e",
+      "source_id": "childs-pose",
+      "source_title": "Child's Pose",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Chin-Up",
+      "target_hash": "5350b4b10ad0c11d4409907aeecc8ac4131fe7c2d80359344caaa4434af88d88",
+      "source_id": "chin-ups",
+      "source_title": "Chin-Ups",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Clean",
+      "target_hash": "3c815882001550461f972c7b4285ea1f7925740098a08ae5f0a4b39c0826f3f4",
+      "source_id": "clean",
+      "source_title": "Clean",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Clean_and_Jerk",
+      "target_hash": "8ed23fccd6f4b18e46704c56c56c950c788834cb7d5c7bc0e7fdb199cfed8d94",
+      "source_id": "clean-and-jerk",
+      "source_title": "Clean and Jerk",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Close-Grip_EZ-Bar_Press",
+      "target_hash": "3a8a028597bb8e58c0e1970cbb68d045c4d42757fa9d520e784de37b79f3cddc",
+      "source_id": "close-grip-ez-bar-bench-press",
+      "source_title": "Close-Grip EZ-Bar Bench Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Close-Grip_Standing_Barbell_Curl",
+      "target_hash": "aa686989354427640dc4df2a82759082981cc1c251d32efeaf5e7a5437b871bc",
+      "source_id": "close-grip-barbell-curl",
+      "source_title": "Close-Grip Barbell Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Cocoons",
+      "target_hash": "605fe122a6284fb13a91a7773efc1a86abd5bb783b51b9f5ec228355a1daa566",
+      "source_id": "cocoons",
+      "source_title": "Cocoons",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Concentration_Curls",
+      "target_hash": "b83808ca399a35a353e4f877b058a0eabee689a6363f503fe57b8dfad75bd6f2",
+      "source_id": "concentration-curl",
+      "source_title": "Concentration Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Cross-Body_Crunch",
+      "target_hash": "f71eb77a0a26177d1f83b5ead6328110cdff44a2bd066bcf700e534d148ac97a",
+      "source_id": "cross-body-crunch",
+      "source_title": "Cross-Body Crunch",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Decline_Push-Up",
+      "target_hash": "62a40018ef18e9092fbd2b2355074dfcf1f8209f44bcdb84206ea8bb224b562c",
+      "source_id": "decline-push-up",
+      "source_title": "Decline Push-Up",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Deficit_Deadlift",
+      "target_hash": "b20bef5eaf964663c3cada40919bc5e508ab0f702e488cdd7dca4928e1611404",
+      "source_id": "deficit-deadlift",
+      "source_title": "Deficit Deadlift",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Drag_Curl",
+      "target_hash": "d3680e67b0948a7414f8c1ef8aeed666d50345b9def8cc414a5629a71a80efad",
+      "source_id": "drag-curl",
+      "source_title": "Drag Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Dumbbell_Bicep_Curl",
+      "target_hash": "65eb39f26b856ad02ee82d4b83382bb16e92f8931fc1abefc09274cf78f24ad8",
+      "source_id": "bicep-curl",
+      "source_title": "Dumbbell Bicep Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Dumbbell_Floor_Press",
+      "target_hash": "5adf807699e15ab64622a2faf1ca867d28c9ad2b5fd9cb983038c60330035a8f",
+      "source_id": "dumbbell-floor-press",
+      "source_title": "Dumbbell Floor Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Dumbbell_Shoulder_Press",
+      "target_hash": "97a0718ad9e669a568996085a3dea35445dccc65e8e0e830f0c775c97e225338",
+      "source_id": "seated-db-press",
+      "source_title": "Seated Dumbbell Shoulder Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Dumbbell_Shrug",
+      "target_hash": "6af9a88593913202c1d500efb6a37cf1fa9f1ba8cb18b7e1a3c72546569208b6",
+      "source_id": "db-shrug",
+      "source_title": "Dumbbell Shrug",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Dumbbell_Squat",
+      "target_hash": "c634c321bbdcea6c5290238f051c7762b4d67e25a769133fbc8261865948934f",
+      "source_id": "db-squat",
+      "source_title": "Dumbbell Squat",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:EZ-Bar_Curl",
+      "target_hash": "1956dd0054280a4c0758a16febfe5e4d989b23d74fed392acf08380f09c31f3e",
+      "source_id": "ez-bar-curl",
+      "source_title": "EZ-Bar Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Elliptical_Trainer",
+      "target_hash": "49511655f458812e770ed23778277dcfcfa0ee3ff157ca9f7bcc5265454f879e",
+      "source_id": "elliptical-trainer",
+      "source_title": "Elliptical Trainer",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Face_Pull",
+      "target_hash": "a234cfc40651f3b736c04dc8e825f8ee576b18f0de2fd3b2bf882b2815da5f09",
+      "source_id": "face-pull",
+      "source_title": "Cable Face Pull",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Freehand_Jump_Squat",
+      "target_hash": "83a9453fc148de7315ce159340857f998866d1aa3e9919d60c160bea6946eb75",
+      "source_id": "jump-squat",
+      "source_title": "Jump Squat",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Front_Cable_Raise",
+      "target_hash": "f2c458018dba90780b39ea721da567c2d3a9379f95656c5f8cd16824e65dbefe",
+      "source_id": "cable-front-raise",
+      "source_title": "Cable Front Raise",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Front_Dumbbell_Raise",
+      "target_hash": "37a6bcd8f2a1dfff7476514559677cc45ac0697bff30d12e0dbd81f21410630c",
+      "source_id": "dumbbell-front-raise",
+      "source_title": "Dumbbell Front Raise",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Front_Two-Dumbbell_Raise",
+      "target_hash": "8efc4cc68c20bda458f183073a419c9542df31d5fe0a0a130938642649a38f10",
+      "source_id": "dumbbell-front-raise",
+      "source_title": "Dumbbell Front Raise",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Glute_Kickback",
+      "target_hash": "14a0cc8e3cd7709d5cbe87989605f091d8656f65eaea7c26a442d108c2ed247a",
+      "source_id": "glute-kickback",
+      "source_title": "Glute Kickback",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Goblet_Squat",
+      "target_hash": "69aa6a5db046682cda9bded778ab8bf556ffd5ac1014ac3306757765d8d4ae33",
+      "source_id": "goblet-squat",
+      "source_title": "Goblet Squat",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Good_Morning",
+      "target_hash": "8d75b202a1c5e2e8693d29ad40ba827040409573e9cf46769089d71335551e56",
+      "source_id": "good-morning",
+      "source_title": "Good Morning",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Hack_Squat",
+      "target_hash": "afb08c670b7948148fd837268e24b1401d812bf469dd46df8ce6855c83e0137b",
+      "source_id": "hack-squat",
+      "source_title": "Hack Squat",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Hammer_Curls",
+      "target_hash": "198e436c542b8bce88f5e6c5e8804f9407023648b65e930cf0e71e9ef7f5e1d9",
+      "source_id": "hammer-curl",
+      "source_title": "Dumbbell Hammer Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Hang_Clean",
+      "target_hash": "310fee3cdb529f32f2a57aabd9459fa52a35fdac5f78b1eca6bdc58122801fe1",
+      "source_id": "hang-clean",
+      "source_title": "Hang Clean",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Hang_Snatch",
+      "target_hash": "226ce5f7a444928424c17fbd566384815039b6602ee0afe05c27538126f784fd",
+      "source_id": "hang-snatch",
+      "source_title": "Hang Snatch",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Incline_Dumbbell_Curl",
+      "target_hash": "aa7477aa4a6faf940ea29f7c0283d4acd79898f1b159175e3d29d0e02bd8dae4",
+      "source_id": "incline-db-curl",
+      "source_title": "Incline Dumbbell Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Incline_Hammer_Curls",
+      "target_hash": "a72081ab6d6b9175beb0a78569838aefbc531965eef298cd87250228cd693b70",
+      "source_id": "incline-hammer-curl",
+      "source_title": "Incline Hammer Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Incline_Push-Up",
+      "target_hash": "d7bb40281190f64f0ec70ac97fd066b124df383877d5889868806a6e5cbcde3d",
+      "source_id": "incline-push-ups",
+      "source_title": "Incline Push-Up",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Inverted_Row",
+      "target_hash": "acf55643e3114f7bf9d7a87809be2f31547ea45df5f2306ffc2ec55e2ac6e7d3",
+      "source_id": "inverted-row",
+      "source_title": "Inverted Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Isometric_Neck_Exercise_-_Sides",
+      "target_hash": "6a6332e1b3ec2aa55d660b4f2583451a61528d80b83d7224a4bb074354274451",
+      "source_id": "isometric-neck-side",
+      "source_title": "Isometric Neck Lateral Flexion",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Jackknife_Sit-Up",
+      "target_hash": "b1b63ea18621de5de339affb55543e40c31a123be5dafb8d2e46c1555ff52a86",
+      "source_id": "jackknife-sit-up",
+      "source_title": "Jackknife Sit-Up",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Kettlebell_Halo",
+      "target_hash": "f488f7514fbc1a22321c3b5532f50190c5bd08f9ad2213cdf36b44e1e873647e",
+      "source_id": "kettlebell-halo",
+      "source_title": "Kettlebell Halo",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Kettlebell_Hang_Clean",
+      "target_hash": "a0ec7cdae2d35f66c3600094c559b92ee0f757ecc338da759184e8861491f27a",
+      "source_id": "kettlebell-swing-clean",
+      "source_title": "Kettlebell Swing Clean",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Kettlebell_Overhead_Triceps_Extension",
+      "target_hash": "072da88ac8807d16d503469f241d68f341ef07114f0ce470dccc662348e6384b",
+      "source_id": "kettlebell-overhead-tricep-extension",
+      "source_title": "Kettlebell Overhead Tricep Extension",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Kettlebell_Pistol_Squat",
+      "target_hash": "3bfff14a1f7592f626ddea7ff2a4fdccc31cfb90e72f85f271a94d4f8ef6d427",
+      "source_id": "kettlebell-pistol-squat",
+      "source_title": "Kettlebell Pistol Squat",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Kettlebell_Sumo_High_Pull",
+      "target_hash": "d9d14d4826c66187de164c0034ea9a3b4c48c355b15f3c7092b95335076d7822",
+      "source_id": "kettlebell-sumo-high-pull",
+      "source_title": "Kettlebell Sumo High Pull",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Kettlebell_Windmill",
+      "target_hash": "ccedd09767e0f6518468881e538c1580e240672804376898a721b0c015219c14",
+      "source_id": "kettlebell-windmills",
+      "source_title": "Kettlebell Windmills",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Kneeling_Hip_Flexor",
+      "target_hash": "c6001c4a2440fc1329d4dde7b49906fc4200550deb1e22d741213f84d333b722",
+      "source_id": "kneeling-hip-flexor-stretch",
+      "source_title": "Kneeling Hip Flexor Stretch",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Leg_Extensions",
+      "target_hash": "81791e02f9fd6f8337dff9258c55ce57330bcb289fa8e322d429ad68533e1c74",
+      "source_id": "leg-extension",
+      "source_title": "Leg Extension",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Leg_Press",
+      "target_hash": "2c7c47e842c95b0ba482fd67637128a4856473cb9b94366a288b112f123d9479",
+      "source_id": "leg-press",
+      "source_title": "Leg Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Lying_Leg_Curls",
+      "target_hash": "2b7e93f7983cbd9a4e7e8b389d72d93ada5d98d8af7415130f939b3d60d1522a",
+      "source_id": "leg-curl",
+      "source_title": "Lying Leg Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Lying_Triceps_Press",
+      "target_hash": "0f4000f949f3012172e2fbc612cea16fbd4345713ec585cb8a4e38c9791878f4",
+      "source_id": "ez-bar-lying-tricep-extension",
+      "source_title": "EZ-Bar Lying Triceps Extension",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Machine_Bicep_Curl",
+      "target_hash": "d7d02ef58d9a7f41ffe162101452df13807421b0555b6620e0a09bb9d2fda563",
+      "source_id": "machine-bicep-curl",
+      "source_title": "Machine Bicep Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Machine_Preacher_Curls",
+      "target_hash": "fe6d87caf2eea635ecc1feedbf72cc8d68e27c9e4cbf899ae9e1f51bedd7108c",
+      "source_id": "machine-preacher-curl",
+      "source_title": "Machine Preacher Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Machine_Shoulder_Military_Press",
+      "target_hash": "f3f86bef8ee97ec962eb41dd9ee5a9ed773506e25cf1599a19eef99a1143c626",
+      "source_id": "machine-shoulder-press",
+      "source_title": "Machine Shoulder Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Mountain_Climbers",
+      "target_hash": "eecce437e4cbc27875f04ed5dde056b243041274e0543e235db84a44f416b845",
+      "source_id": "mountain-climbers",
+      "source_title": "Mountain Climbers",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:One-Arm_Dumbbell_Row",
+      "target_hash": "2ec6156fb9485aafb1ae5e5a376665decae8591b0b39d25deab5c2e191d93211",
+      "source_id": "single-arm-db-row",
+      "source_title": "Single-Arm Dumbbell Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:One-Arm_Kettlebell_Floor_Press",
+      "target_hash": "0f89d876c303567cd488e17f2e0ef60b6a34604bf99c017efbf915a406cd60ee",
+      "source_id": "one-arm-kettlebell-floor-press",
+      "source_title": "One Arm Kettlebell Floor Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:One-Arm_Kettlebell_Push_Press",
+      "target_hash": "c9b775ea8858a21894d49292c71ea33ffd085ac2fb8d227a77267e06bfc09af0",
+      "source_id": "one-arm-kettlebell-push-press",
+      "source_title": "One Arm Kettlebell Push Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:One-Legged_Cable_Kickback",
+      "target_hash": "aa19283d8ac4999c277daa1eb2549ac1d9770a96a1161787cb95c865d35366dd",
+      "source_id": "cable-kickback",
+      "source_title": "Cable Glute Kickback",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:One_Arm_Dumbbell_Preacher_Curl",
+      "target_hash": "da3f32de161a3ca80fbe0a78d0948077ff3288912e153ce54cacf34df72118c7",
+      "source_id": "one-arm-dumbbell-preacher-curl",
+      "source_title": "One Arm Dumbbell Preacher Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:One_Arm_Lat_Pulldown",
+      "target_hash": "b9e65a3ca1420e8fec9acf89d2bcdfae23107e8e66c4489d47f09307ddb1e478",
+      "source_id": "one-arm-lat-pulldown",
+      "source_title": "One-Arm Lat Pulldown",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:One_Knee_To_Chest",
+      "target_hash": "078c8b94beade60cbbfb67d2ccd1bb15a3f5791dd725e383b8cf1124f65de35d",
+      "source_id": "knee-to-chest-stretch",
+      "source_title": "Knee-to-Chest Stretch",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Overhead_Squat",
+      "target_hash": "0adb62eff3f471a4280bd54f3a9bc8d217909a9468bb2b578e8c7207464f00d3",
+      "source_id": "overhead-squat",
+      "source_title": "Overhead Squat",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Pallof_Press",
+      "target_hash": "947b694b80921ae2a77fcfc1e63fd0c1a18e4ac5b7083098db9a53b152806d5d",
+      "source_id": "cable-pallof-press",
+      "source_title": "Cable Pallof Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Plank",
+      "target_hash": "c9507306bf589586a2a7c86814c8ca65acf3d1ee931d930a403d5c9dc7ad3b17",
+      "source_id": "plank",
+      "source_title": "Plank",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Plate_Pinch",
+      "target_hash": "5e5d3446beac088d8491492df4bd5295c5df000bb6b4aeb71dd6852eedfb76ab",
+      "source_id": "plate-pinch",
+      "source_title": "Plate Pinch",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Plyo_Push-up",
+      "target_hash": "b9d27377e25ff0ec6d5b67db67cfb9edc31147b3cd8a6cf4d37e27994cd9cfac",
+      "source_id": "plyo-push-up",
+      "source_title": "Plyo Push-Up",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Preacher_Curl",
+      "target_hash": "41a9ba8b63bbe421532cd0c218bd2f8213a35d83d60ca758230beaab99d76822",
+      "source_id": "preacher-curl",
+      "source_title": "Preacher Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Preacher_Hammer_Dumbbell_Curl",
+      "target_hash": "febafb5b58f256c51cab8ae20f3b65321e6396397c6c94932db25ceda4b4af7c",
+      "source_id": "preacher-hammer-curl",
+      "source_title": "Preacher Hammer Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Pull_Through",
+      "target_hash": "0ce4973aad1058e5ca8e1f75710acbff6e12bdb362bd5ec95ce58152e47297f8",
+      "source_id": "cable-pull-through",
+      "source_title": "Cable Pull-Through",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Pullups",
+      "target_hash": "3e64762f9bccdbc24fd3d67507c590bd6f48f66d65a9a8ee6b553941ecc9dcb4",
+      "source_id": "pull-up",
+      "source_title": "Pull-Up",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Rack_Pulls",
+      "target_hash": "9c4f20ef7a0283e835f0e8a3c3d8c7910b3638bea0bf737dc0605793efd9b6f9",
+      "source_id": "rack-pull",
+      "source_title": "Rack Pull",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Reverse_Crunch",
+      "target_hash": "4b86aa96d763a40fe1b2f0ab898248d2a37e5ab42bd986116dd41e1e40d48887",
+      "source_id": "reverse-crunches",
+      "source_title": "Reverse Crunches",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Reverse_Grip_Bent-Over_Rows",
+      "target_hash": "d64941657b56429a1c8711bd1a6bbf4810484a1bf963f86f4689c45a9bedc23c",
+      "source_id": "reverse-grip-bent-over-row",
+      "source_title": "Reverse Grip Bent Over Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Romanian_Deadlift",
+      "target_hash": "4249eb657156d720059f8836df4f9d386f2ad8eab0e1a3fab3d7c441554d4044",
+      "source_id": "romanian-deadlift",
+      "source_title": "Romanian Deadlift",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Rowing_Stationary",
+      "target_hash": "07acc3c9f929d710794531576f46275372ca9d20fc532564763cdd0488323a2e",
+      "source_id": "rowing-machine",
+      "source_title": "Rowing Machine",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Scapular_Pull-Up",
+      "target_hash": "896665c956b3fbf97b9f5b2d197316a96f77a2b9787c7ca7fb190eb1e6a1a9f6",
+      "source_id": "scapular-pull-ups",
+      "source_title": "Scapular Pull Ups",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Scissor_Kick",
+      "target_hash": "728f008da7623982508722d96a0953ae9f315f503d21bffe881136f2edfa9970",
+      "source_id": "scissor-kicks",
+      "source_title": "Scissor Kicks",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Seated_Cable_Rows",
+      "target_hash": "e4ce0d83aa46e488e44bbb5c7dd8aa90a7d9ae00ce853a4a7c2eff1429c3f820",
+      "source_id": "seated-cable-row",
+      "source_title": "Seated Cable Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Seated_Calf_Raise",
+      "target_hash": "a9085b94fc0dd1b8ba279575574f5a3fb840e544e9942c6b583b5fa65b32c169",
+      "source_id": "seated-calf-raise",
+      "source_title": "Seated Calf Raise",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Seated_Dumbbell_Curl",
+      "target_hash": "8dd328a8cead476f091a9aa7e63aa114d74402a47effbc6270d6e15b6d7bb4e4",
+      "source_id": "seated-dumbbell-curl",
+      "source_title": "Seated Dumbbell Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Seated_Dumbbell_Press",
+      "target_hash": "3db64c6406ae535e5862058e04a6e0441fb8426b846a53691fbce97984eb5cae",
+      "source_id": "seated-db-press",
+      "source_title": "Seated Dumbbell Shoulder Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Seated_Leg_Curl",
+      "target_hash": "2ed47a061bf77d814fbb72c480da28b8cd84826dd35b62f854e093bc8125b258",
+      "source_id": "seated-leg-curl",
+      "source_title": "Seated Leg Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Seated_One-arm_Cable_Pulley_Rows",
+      "target_hash": "f46ddb81a02d76dd9ef693bd44f1324a96af677b56533a54bc305b2b556cf74f",
+      "source_id": "one-arm-seated-cable-row",
+      "source_title": "One-Arm Seated Cable Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Seated_Side_Lateral_Raise",
+      "target_hash": "122e936afa10d5f1d0a1a0dd58c997a9f947069c182b41662fa15240fbe7a6b0",
+      "source_id": "seated-dumbbell-lateral-raise",
+      "source_title": "Seated Dumbbell Lateral Raise",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Sit-Up",
+      "target_hash": "2c189abba65c8133a4582f95340882ac15a7d1b15fa15693ff4ce8801707ffa7",
+      "source_id": "sit-ups",
+      "source_title": "Sit-Ups",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Smith_Machine_Bent_Over_Row",
+      "target_hash": "2dd39935a8507feb30cefb6a45c3062989119837eeda49c61d8c58b778c2ef87",
+      "source_id": "smith-machine-bent-over-row",
+      "source_title": "Smith Machine Bent Over Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Smith_Machine_Calf_Raise",
+      "target_hash": "969f9e8863b153cbe8fecba903a2506f59d17f4151f5cbef599b71a1a10a9f08",
+      "source_id": "smith-machine-calf-raise",
+      "source_title": "Smith Machine Calf Raise",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Smith_Machine_Decline_Press",
+      "target_hash": "c4b62e5d4cb3aab07c093dd86cae8f84c7fcb258af94aef323c587465ced5e78",
+      "source_id": "smith-machine-decline-bench-press",
+      "source_title": "Smith Machine Decline Bench Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Smith_Machine_Upright_Row",
+      "target_hash": "3e24e86bfc5ffc4d93943c8ec147ee73bc7672a24b626fd0773a40b2228a0d2d",
+      "source_id": "smith-machine-upright-row",
+      "source_title": "Smith Machine Upright Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Snatch",
+      "target_hash": "57863da4b33fab6e3d5ac2625e879528ec259aa0025126cc1c44414d29bf6432",
+      "source_id": "snatch",
+      "source_title": "Snatch",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Stairmaster",
+      "target_hash": "c56ef24160e44a31a2f716d7686c606a9f0dad42a9a9f89bfc3f182b03e0d7fb",
+      "source_id": "stair-climber",
+      "source_title": "Stair Climber",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Standing_Barbell_Calf_Raise",
+      "target_hash": "8c4867ea86827e293ee600dc193631adde913537d2c0b678b0a6a99b6b664e5c",
+      "source_id": "barbell-calf-raise",
+      "source_title": "Barbell Calf Raise",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Standing_Cable_Chest_Press",
+      "target_hash": "f47574f2db7419800b8361020d5308018be7bd0bd04e6e239691bab3a1ae1ece",
+      "source_id": "cable-chest-press",
+      "source_title": "Cable Chest Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Standing_Calf_Raises",
+      "target_hash": "cf81e6435f2425af957b27e057b2aaae61056fac8b2829823672025982e81cd9",
+      "source_id": "standing-calf-raise",
+      "source_title": "Standing Calf Raise",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Standing_Dumbbell_Calf_Raise",
+      "target_hash": "7fc414363a8ed737af76efe27e1157d6e90b1115e9da29bc7d3f2a867e121f0c",
+      "source_id": "dumbbell-calf-raise",
+      "source_title": "Dumbbell Calf Raise",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Standing_Dumbbell_Reverse_Curl",
+      "target_hash": "3a7cf878a72011a850ae9b1ef2f214e7e364c489393778fefffd4c9d3bd00980",
+      "source_id": "db-reverse-curl",
+      "source_title": "Dumbbell Reverse Curl",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Standing_Dumbbell_Upright_Row",
+      "target_hash": "4cb6a8cebc8123575efb6766fd663837e80ec2bf74f63eae60bc8c0d0ca874f7",
+      "source_id": "dumbbell-upright-row",
+      "source_title": "Dumbbell Upright Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Standing_One-Arm_Dumbbell_Triceps_Extension",
+      "target_hash": "2862d317683ecd023bd573fb32e1ec274a112120e1c61d266eb18542a30a3b30",
+      "source_id": "single-arm-dumbbell-overhead-tricep-extension",
+      "source_title": "Single-Arm Dumbbell Overhead Tricep Extension",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Stiff-Legged_Barbell_Deadlift",
+      "target_hash": "2543eda93e9d32632b84950578d128b05de4bbca21be311c6c3b1d70ef0b0cd9",
+      "source_id": "stiff-leg-deadlift",
+      "source_title": "Stiff Leg Deadlift",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Straight-Arm_Pulldown",
+      "target_hash": "468fea16a301cd5118729ae6de0294cb1dfd8fc35537ca7b177a7a1603e7f075",
+      "source_id": "straight-arm-pulldown",
+      "source_title": "Straight-Arm Pulldown",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Sumo_Deadlift",
+      "target_hash": "b296cb088b45d3e6cdd5e2addadf1d837ad7fdcee06134db6d82cffb31104074",
+      "source_id": "sumo-deadlift",
+      "source_title": "Sumo Deadlift",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Svend_Press",
+      "target_hash": "0ca0de08412347dbc9ba100758b4ad097178542ff6a37253bf5cfc054f63e542",
+      "source_id": "svend-press",
+      "source_title": "Svend Press",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:T-Bar_Row_with_Handle",
+      "target_hash": "86d556613d305214931a1ca8bbfca220ce551980f416ace31a66a11b21ee4a8e",
+      "source_id": "t-bar-row",
+      "source_title": "T-Bar Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Triceps_Pushdown",
+      "target_hash": "d4cbd462e01e2cedc1fb42392cb6e7fdc0b029011775e643084eae5b1e5193aa",
+      "source_id": "tricep-pushdown",
+      "source_title": "Cable Tricep Pushdown",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Upright_Barbell_Row",
+      "target_hash": "9b3ca7cc61f276e8bb72e0005339c5987bc1fcdf1ad0c0e989656b1fd86dfdc7",
+      "source_id": "upright-row",
+      "source_title": "Barbell Upright Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Upright_Cable_Row",
+      "target_hash": "f34712be1ef5548933a021c49e75e3148870b62b1333377734eefaaef917b132",
+      "source_id": "cable-upright-row",
+      "source_title": "Cable Upright Row",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Wrist_Roller",
+      "target_hash": "c3ef1f1b6cc8f04d697f7e59c11bb82067b873ee613198699faec0f3db287f34",
+      "source_id": "wrist-roller",
+      "source_title": "Wrist Roller",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Zercher_Squats",
+      "target_hash": "d328fb159e6160aaab7a204537d055f64918c63ce17a18e5b2b9dbf019ba5297",
+      "source_id": "zercher-squat",
+      "source_title": "Zercher Squat",
+      "note": "Consignes, matériel, posture et variantes comparés ; positions illustrées examinées avant publication. Fichiers originaux conservés."
+    }
+  ]
+}

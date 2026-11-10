@@ -1,0 +1,45 @@
+"""First-run profile and updates on an isolated QA server; never writes the real profile."""
+import os
+from pathlib import Path
+from training_test_auth import authenticated_context
+from playwright.sync_api import sync_playwright,expect
+BASE=os.environ['PROFILE_TEST_URL'];assert ':18081' in BASE
+OUT=Path(__file__).resolve().parent.parent/'.local/training-qa';OUT.mkdir(parents=True,exist_ok=True)
+with sync_playwright() as p:
+ browser=p.chromium.launch()
+ pc_context=authenticated_context(browser,BASE,profile=False,fixture=None,viewport={'width':1440,'height':1050});pc=pc_context.new_page()
+ errors=[];pc.on('pageerror',lambda e:errors.append(str(e)))
+ pc.goto(BASE+'/#blocs')
+ expect(pc.get_by_role('heading',name='Commençons par ton profil sportif')).to_be_visible()
+ expect(pc.get_by_role('button',name='Mes blocs',exact=True)).to_be_disabled()
+ pc.screenshot(path=str(OUT/'profile-onboarding-pc.png'),full_page=True)
+ for key,value in {'displayName':'Profil de test','birthDate':'1990-01-01','weightKg':'80','heightCm':'180','weeklySessions':'4','targetWeightKg':'82','trainingNotes':'Salle et mobilité'}.items():pc.locator('[name='+key+']').fill(value)
+ for key,value in {'sex':'male','activityLevel':'active','goal':'muscle_gain','experience':'intermediate'}.items():pc.locator('[name='+key+']').select_option(value)
+ with pc.expect_response(lambda r:r.url.endswith('/api/profile') and r.request.method=='PUT') as response:pc.get_by_role('button',name='Enregistrer et commencer',exact=True).click()
+ assert response.value.status==200,response.value.text()
+ expect(pc.get_by_role('heading',name='Tes repères, ton évolution')).to_be_visible()
+ expect(pc.get_by_text('Maintien estimé',exact=True)).to_be_visible()
+ expect(pc.get_by_role('button',name='Mes blocs',exact=True)).to_be_enabled()
+ expect(pc.locator('.profile-table tbody tr')).to_have_count(1)
+ pc.screenshot(path=str(OUT/'profile-dashboard-pc.png'),full_page=True)
+ pc.reload();expect(pc.get_by_role('button',name='Modifier mon profil',exact=True)).to_be_visible()
+ phone_context=authenticated_context(browser,BASE,profile=False,fixture=None,viewport={'width':390,'height':844},is_mobile=True,has_touch=True);phone=phone_context.new_page()
+ phone.on('pageerror',lambda e:errors.append(str(e)));phone.goto(BASE+'/#profil')
+ phone.get_by_role('button',name='Modifier mon profil',exact=True).click()
+ phone.locator('[name=weightKg]').fill('80.5')
+ phone.locator('[name=sex]').select_option('unspecified')
+ phone.screenshot(path=str(OUT/'profile-edit-mobile.png'),full_page=True)
+ with phone.expect_response(lambda r:r.url.endswith('/api/profile') and r.request.method=='PUT') as response:phone.get_by_role('button',name='Enregistrer le profil',exact=True).click()
+ assert response.value.status==200,response.value.text()
+ expect(phone.locator('.profile-table tbody tr')).to_have_count(2)
+ expect(phone.get_by_text('80,5 kg',exact=True).first).to_be_visible()
+ assert phone.evaluate('document.documentElement.scrollWidth<=innerWidth')
+ phone.screenshot(path=str(OUT/'profile-dashboard-mobile.png'),full_page=True)
+ phone.set_viewport_size({'width':320,'height':740})
+ assert phone.evaluate('document.documentElement.scrollWidth<=innerWidth')
+ phone.get_by_role('button',name='Entraînement',exact=True).click()
+ phone.get_by_role('button',name='Mes blocs',exact=True).click()
+ expect(phone.get_by_role('button',name='+ Créer un bloc',exact=True)).to_be_visible()
+ assert not errors,errors
+ browser.close()
+print('OK : accueil initial, profil persistant, estimations, édition mobile, historique, navigation PC/mobile 320–390px ; aucune erreur JS.')

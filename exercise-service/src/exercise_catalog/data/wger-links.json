@@ -1,0 +1,47 @@
+{
+  "source_ref": "e7464c829d840aca4d62b4aa0c19ee83b92cc3963b5de35528d942d793f3ab8b",
+  "links": [
+    {
+      "source_key": "free-exercise-db:Butterfly",
+      "target_hash": "a56a7ccfc624998ca98c0ab0e5dd4972f9cf69b6be8ecc6921975e34fbab7cf4",
+      "source_id": "135",
+      "source_title": "Butterfly",
+      "note": "Matériel, posture et variante comparés aux consignes ; chaque position illustrée examinée avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Cable_Rear_Delt_Fly",
+      "target_hash": "3bb42dc2fae107d84ad97521a177f5ff630ada9b66a8ad1a52ef82bda76e0f5b",
+      "source_id": "822",
+      "source_title": "Cable Rear Delt Fly",
+      "note": "Matériel, posture et variante comparés aux consignes ; chaque position illustrée examinée avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Close-Grip_Front_Lat_Pulldown",
+      "target_hash": "a3b8e042c5372d637b715d7accdbc8cf194e6b265804ca9e1f7360cfff1f51b8",
+      "source_id": "158",
+      "source_title": "Close-grip Lat Pull Down",
+      "note": "Matériel, posture et variante comparés aux consignes ; chaque position illustrée examinée avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Handstand_Push-Ups",
+      "target_hash": "5208e2881d5d3cc3148d0eb5aff579d9a41dd70a75f731e4592808c54cb613ad",
+      "source_id": "282",
+      "source_title": "Handstand Pushup",
+      "note": "Matériel, posture et variante comparés aux consignes ; chaque position illustrée examinée avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Seated_Bent-Over_Rear_Delt_Raise",
+      "target_hash": "b7c1612e07d3d5c8951556a67b7695028aecc51aceefd02785b31c85b62faf8e",
+      "source_id": "1098",
+      "source_title": "Seated rear delt rise",
+      "note": "Matériel, posture et variante comparés aux consignes ; chaque position illustrée examinée avant publication. Fichiers originaux conservés."
+    },
+    {
+      "source_key": "free-exercise-db:Standing_Hip_Circles",
+      "target_hash": "a1c315d4840705d30259d547c08c68f6c66c8a3900e5d0b98d7615c16df3b07a",
+      "source_id": "1862",
+      "source_title": "Hip Circles",
+      "note": "Matériel, posture et variante comparés aux consignes ; chaque position illustrée examinée avant publication. Fichiers originaux conservés."
+    }
+  ]
+}
