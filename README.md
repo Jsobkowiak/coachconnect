@@ -66,4 +66,6 @@ npm --prefix apps/frontend run build
 
 Vite redirige `/api` vers ASP.NET sur 8081. Dans Docker, ASP.NET sert directement le front compilé : aucun serveur Node séparé.
 
+Mise en production sur https://joincoachconnect.com : [procédure](docs/production.md).
+
 Voir [les tests](tests/README.md), [les schémas d’architecture](docs/architecture-actuelle.md) et [le versionnement](docs/versioning.md). La CI n’effectue aucun déploiement automatique. Les bases réelles, secrets, sauvegardes et médias tiers téléchargés ne sont jamais publiés dans Git.

@@ -1,0 +1,63 @@
+# Surcouche de production (VPS) : appliquée par-dessus ../../compose.yaml.
+# Sur le VPS, .env contient COMPOSE_FILE=compose.yaml:infrastructure/docker/compose.prod.yaml
+# et COMPOSE_PROFILES=catalog,training : un simple `docker compose up -d` suffit.
+# Seul training-app est exposé, uniquement via le Traefik déjà présent sur le VPS.
+# Watchtower (présent sur le VPS) ne doit ni redémarrer les bases ni chercher les images :local.
+x-no-watchtower: &no-watchtower
+  com.centurylinklabs.watchtower.enable: "false"
+services:
+  training-app:
+    restart: unless-stopped
+    ports: !reset []
+    environment:
+      TRAINING_HTTPS: "true"
+      TRAINING_BEHIND_PROXY: "true"
+      TRAINING_ALLOWED_HOSTS: joincoachconnect.com,www.joincoachconnect.com
+    networks: [default, traefik]
+    labels:
+      traefik.enable: "true"
+      com.centurylinklabs.watchtower.enable: "false"
+      traefik.docker.network: ${TRAEFIK_NETWORK:?TRAEFIK_NETWORK requis dans .env}
+      traefik.http.routers.coachconnect.rule: Host(`joincoachconnect.com`) || Host(`www.joincoachconnect.com`)
+      traefik.http.routers.coachconnect.entrypoints: ${TRAEFIK_ENTRYPOINT:-websecure}
+      traefik.http.routers.coachconnect.tls: "true"
+      traefik.http.routers.coachconnect.tls.certresolver: ${TRAEFIK_CERTRESOLVER:?TRAEFIK_CERTRESOLVER requis dans .env}
+      traefik.http.routers.coachconnect.tls.domains[0].main: joincoachconnect.com
+      traefik.http.routers.coachconnect.tls.domains[0].sans: www.joincoachconnect.com
+      traefik.http.routers.coachconnect.middlewares: coachconnect-www,coachconnect-headers
+      traefik.http.middlewares.coachconnect-www.redirectregex.regex: ^https?://www\.joincoachconnect\.com(?::[0-9]+)?/(.*)
+      traefik.http.middlewares.coachconnect-www.redirectregex.replacement: https://joincoachconnect.com/$${1}
+      traefik.http.middlewares.coachconnect-www.redirectregex.permanent: "true"
+      traefik.http.middlewares.coachconnect-headers.headers.stsSeconds: "31536000"
+      traefik.http.middlewares.coachconnect-headers.headers.stsIncludeSubdomains: "true"
+      traefik.http.middlewares.coachconnect-headers.headers.contentTypeNosniff: "true"
+      traefik.http.middlewares.coachconnect-headers.headers.referrerPolicy: strict-origin-when-cross-origin
+      traefik.http.middlewares.coachconnect-headers.headers.permissionsPolicy: camera=(), microphone=(), geolocation=()
+      traefik.http.services.coachconnect.loadbalancer.server.port: "8081"
+  training-db:
+    restart: unless-stopped
+    labels: *no-watchtower
+    ports: !reset []
+  catalog-api:
+    restart: unless-stopped
+    labels: *no-watchtower
+    ports: !reset []
+  catalog-mongo:
+    restart: unless-stopped
+    labels: *no-watchtower
+    ports: !reset []
+  # Interfaces d'administration : jamais publiques. Accès par tunnel SSH
+  # (ssh -L 4200:127.0.0.1:4200 ...), d'où le port lié à 127.0.0.1.
+  prefect:
+    restart: unless-stopped
+    labels: *no-watchtower
+  metabase:
+    restart: unless-stopped
+    labels: *no-watchtower
+  metabase-db:
+    restart: unless-stopped
+    labels: *no-watchtower
+networks:
+  traefik:
+    external: true
+    name: ${TRAEFIK_NETWORK:?TRAEFIK_NETWORK requis dans .env}
