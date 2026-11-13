@@ -15,10 +15,10 @@ Les copies renouvellent les identifiants de séance, partie et prescription. Les
 ## Vérification
 
 - `dotnet build CoachConnect.sln`
-- `npm --prefix training-web run build`
-- `TRAINING_URL=http://localhost:18081 python3 scripts/check-session-parts.py`
-- `TRAINING_URL=http://localhost:18081 python3 scripts/check-programme-isolation.py`
-- Avec Playwright installé : `TRAINING_URL=http://localhost:18081 python scripts/check-session-parts-browser.py`
-- Parcours historique : `scripts/check-dotnet-browser.py` sur le même serveur de test.
+- `npm --prefix apps/frontend run build`
+- `TRAINING_URL=http://localhost:18081 python3 tests/integration/check-session-parts.py`
+- `TRAINING_URL=http://localhost:18081 python3 tests/integration/check-programme-isolation.py`
+- Avec Playwright installé : `TRAINING_URL=http://localhost:18081 python tests/e2e/check-session-parts-browser.py`
+- Parcours historique : `tests/e2e/check-dotnet-browser.py` sur le même serveur de test.
 
 Les contrôles utilisent un serveur authentifié avec une base jetable sur le port 18081. Le scénario navigateur crée uniquement des comptes de test dans cette base, qui doit être supprimée après vérification.

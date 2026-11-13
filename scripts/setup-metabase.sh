@@ -8,7 +8,7 @@ p = Path('.env')
 existing = p.read_text() if p.exists() else ''
 keys = {line.split('=', 1)[0] for line in existing.splitlines() if '=' in line}
 new = []
-for key in ['AUTH_DB_PASSWORD', 'CATALOG_MONGO_ROOT_PASSWORD', 'CATALOG_MONGO_PASSWORD',
+for key in ['CATALOG_MONGO_ROOT_PASSWORD', 'CATALOG_MONGO_PASSWORD',
             'METABASE_DB_PASSWORD', 'METABASE_MONGO_PASSWORD', 'METABASE_ENCRYPTION_KEY']:
     if key not in keys:
         new.append(key + '=' + secrets.token_hex(24))
@@ -25,8 +25,8 @@ if new:
 print('Configuration Metabase prête ; identifiants conservés dans .env.')
 PY
 docker compose --profile catalog --profile analytics up -d --wait metabase-db metabase
-if [[ -x exercise-service/.venv/bin/python ]]; then
-  exercise-service/.venv/bin/python analytics/bootstrap_metabase.py
+if [[ -x apps/exercise-catalog/.venv/bin/python ]]; then
+  apps/exercise-catalog/.venv/bin/python infrastructure/metabase/bootstrap_metabase.py
 else
   echo 'Installe les dépendances Python du catalogue avant de configurer Metabase.' >&2
   exit 1

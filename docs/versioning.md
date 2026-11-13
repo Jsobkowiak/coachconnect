@@ -2,7 +2,7 @@
 
 ## Un monorepo
 
-Le dépôt regroupe `training-web/`, `training-service/`, `exercise-service/`, `analytics/`, les scripts, migrations et fichiers Docker. Le front et le backend sportif sont construits ensemble ; le service Python fournit une autre image. Les bases utilisent les images officielles et des volumes persistants.
+Le dépôt regroupe `apps/frontend/`, `apps/backend/`, `apps/exercise-catalog/`, `infrastructure/metabase/`, les scripts, migrations et fichiers Docker. Le front et le backend sportif sont construits ensemble ; le service Python fournit une autre image. Les bases utilisent les images officielles et des volumes persistants.
 
 Git conserve le code, les contrats, migrations, règles de qualité, dépendances verrouillées, catalogue français éditorial et illustrations originales distribuables. Il ne conserve pas les bases réelles, les profils, performances, mensurations, sauvegardes, secrets ou médias externes téléchargés. Ces éléments restent dans les volumes Docker et `.local/`.
 
