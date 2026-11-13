@@ -1,52 +1,69 @@
 # CoachConnect
 
-Monorepo personnel : conception des blocs sur PC et suivi des performances mobile first à la salle.
+Application personnelle pour concevoir ses blocs d’entraînement sur PC et saisir ses performances sur mobile. Interface React claire et rouge, API ASP.NET Core 10 avec authentification intégrée, catalogue d’exercices et ETL Python.
 
-- `training-web/` : interface React / TypeScript / Vite (blocs, séances, exercices illustrés, profil et statistiques).
-- `training-service/` : API C# / ASP.NET Core 10, PostgreSQL.
-- `training-service/Features/Accounts/` : authentification sportive intégrée, ASP.NET Core Identity.
-- `exercise-service/` : catalogue français, API Python/FastAPI, ETL Prefect et MongoDB.
-- `analytics/` : Metabase.
+## Où travailler ?
 
-## Démarrage WSL
+```text
+coachconnect/
+├── apps/
+│   ├── frontend/          # React / TypeScript : écrans et interactions
+│   ├── backend/           # ASP.NET Core : auth, API et règles métier
+│   └── exercise-catalog/  # Python : catalogue FastAPI, ETL et qualité
+├── infrastructure/
+│   ├── docker/            # Définition des services et volumes Docker
+│   └── metabase/          # Configuration des tableaux de bord catalogue
+├── tests/
+│   ├── integration/       # Scénarios HTTP sur une base temporaire
+│   ├── e2e/               # Parcours navigateur PC / mobile
+│   └── support/           # Helpers d’authentification partagés
+├── scripts/               # Démarrage, imports et maintenance
+├── docs/                  # Architecture et procédures
+├── .github/workflows/     # CI : compilation, tests et images Docker
+├── compose.yaml           # Point d’entrée vers infrastructure/docker/
+└── CoachConnect.sln       # Solution .NET
+```
 
-Docker et Docker Compose suffisent pour exécuter les services. Pour développer hors Docker : SDK .NET 10 et Node 24.
+| Tu veux modifier… | Va dans… |
+|---|---|
+| Une page ou une interaction | [`apps/frontend/`](apps/frontend/README.md) |
+| Une règle, un endpoint ou l’authentification | [`apps/backend/`](apps/backend/README.md) |
+| Un exercice, une source ou un contrôle qualité | [`apps/exercise-catalog/`](apps/exercise-catalog/README.md) |
+| Les conteneurs, ports ou volumes | [`infrastructure/docker/`](infrastructure/docker/README.md) |
+| Les tableaux de bord Metabase | [`infrastructure/metabase/`](infrastructure/metabase/README.md) |
+| Un scénario de vérification | [`tests/`](tests/README.md) |
+
+## Démarrage depuis la racine du dépôt
+
+Docker et Docker Compose suffisent pour les services. Compose doit prendre en charge `include` (2.20.0 ou plus récent).
 
 ```bash
 ./scripts/setup-training.sh
 ```
 
 - Application : http://localhost:8081
+- Connexion / inscription : http://localhost:8081/login et http://localhost:8081/register
+- Carnet : http://localhost:8081/#seance
+- Blocs : http://localhost:8081/#blocs
 - Statistiques : http://localhost:8081/#stats
-- Carnet de séance : http://localhost:8081/#seance
-- Exercices : http://localhost:8081/#illustrations
-- Connexion sportive : http://localhost:8081/login
-- Inscription sportive : http://localhost:8081/register
 
-L’outil sportif possède sa propre authentification ASP.NET Core Identity intégrée. Les données sont isolées par compte ; l’ancien profil local est récupérable via le lien privé d’initialisation. Les ports sont locaux. Un téléphone réel nécessitera une configuration réseau et HTTPS dédiée ; son `localhost` n’est pas celui du PC.
+Pour les imports et la qualité : [guide du catalogue](apps/exercise-catalog/README.md).
 
-Les identifiants locaux sont dans `.env`, ignoré par Git ; ceux existants sont conservés. Les comptes sportifs sont créés via l’inscription intégrée. Les volumes existants sont conservés ; aucun reset de base n’est requis.
+Les commandes `docker compose` restent exécutées depuis la racine : `compose.yaml` charge la configuration rangée dans `infrastructure/docker/`. Le nom du projet Docker et les volumes persistants restent stables. Les secrets sont dans `.env`, les données locales et sauvegardes dans `.local/`, hors Git.
+
+L’application sportive possède sa propre authentification Identity. Les données et brouillons sont isolés par compte ; la récupération locale à usage unique des données antérieures est préservée. Les ports sont locaux ; un téléphone physique nécessite une adresse réseau et HTTPS adaptés.
 
 ## Développement et vérification
 
+SDK .NET 10, Node 24 et Python 3.12 avec uv pour le catalogue.
+
 ```bash
 dotnet build CoachConnect.sln
-npm --prefix training-web ci
-npm --prefix training-web run dev
-npm --prefix training-web run build
-TRAINING_URL=http://localhost:18081 python3 scripts/check-training.py
-TRAINING_URL=http://localhost:18081 python3 scripts/check-workouts.py
-TRAINING_URL=http://localhost:18081 python3 scripts/check-programme-isolation.py
+npm --prefix apps/frontend ci
+npm --prefix apps/frontend run dev
+npm --prefix apps/frontend run build
 ```
 
-Le serveur Vite redirige `/api` vers ASP.NET (8081). Docker compile et sert le front sans serveur Node en production locale.
+Vite redirige `/api` vers ASP.NET sur 8081. Dans Docker, ASP.NET sert directement le front compilé : aucun serveur Node séparé.
 
-Voir [le schéma complet de l’architecture actuelle](docs/architecture-actuelle.md) (services, flux, stockage, ETL et état local au 5 novembre 2026).
-
-Voir [l’architecture](docs/architecture.md), [les cycles et performances](training-service/README.md) et [le catalogue](exercise-service/README.md). Le catalogue français et ses illustrations restent accessibles via Python ; les imports et outils qualité existants sont conservés.
-
-Les tests métier sur 18081 nécessitent un serveur de test et une base temporaire distincte. Ils créent des comptes authentifiés via les vrais endpoints ; aucun contournement de sécurité. Pour cibler un compte de test déjà créé, définir `TRAINING_TEST_EMAIL` et `TRAINING_TEST_PASSWORD`. Voir `training-service/README.md` pour l’initialisation, les sessions et la récupération des données locales.
-
-## Versionnement
-
-Voir [la gestion du code, des images et des données](docs/versioning.md). Le dépôt public contient le code et les ressources distribuables ; les données personnelles, secrets, sauvegardes et médias tiers téléchargés restent hors Git. La CI vérifie les builds et les tests Python, sans déploiement automatique.
+Voir [les tests](tests/README.md), [les schémas d’architecture](docs/architecture-actuelle.md) et [le versionnement](docs/versioning.md). La CI n’effectue aucun déploiement automatique. Les bases réelles, secrets, sauvegardes et médias tiers téléchargés ne sont jamais publiés dans Git.

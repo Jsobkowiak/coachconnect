@@ -4,6 +4,8 @@ Relevé du **5 novembre 2026**, établi à partir du code, de `compose.yaml` et 
 
 La rubrique Nutrition et les estimations caloriques du profil ont été retirées de l’interface le 5 novembre 2026. Le code serveur et les données nutritionnelles historiques sont conservés pour compatibilité ; ils ne constituent plus une fonctionnalité exposée dans l’application.
 
+Organisation du dépôt mise à jour le 10 novembre 2026 : `apps/` pour les applications, `infrastructure/` pour Docker et Metabase, `tests/` pour les scénarios transversaux. Le `compose.yaml` racine inclut la configuration d’infrastructure en conservant les volumes existants.
+
 ## 1. Vue d’ensemble et déploiement
 
 Le cœur sportif est une application ASP.NET Core organisée par fonctionnalités, avec son front React livré dans le même conteneur. Le catalogue et les traitements de données constituent un service Python distinct. Les échanges applicatifs sont HTTP synchrones ; les imports sont des tâches lancées à la demande.
@@ -58,7 +60,7 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    subgraph UI["training-web — React / TypeScript"]
+    subgraph UI["apps/frontend — React / TypeScript"]
         Nav["Navigation<br/>Entraînement / Suivi"]
         Planning["Blocs, semaines, séances, parties<br/>Copie de programme"]
         Logging["Carnet de séance<br/>Séries, charges, repos, records"]
@@ -70,7 +72,7 @@ flowchart LR
         Planning & Logging & Tracking & AccountUI --> Client
         Logging <--> Draft
     end
-    subgraph Server["training-service — ASP.NET Core 10"]
+    subgraph Server["apps/backend — ASP.NET Core 10"]
         Routes["Endpoints HTTP<br/>Authentification, CSRF, limites de débit"]
         Current["CurrentAccount<br/>Identité issue de la session"]
         Services["Services métier<br/>Cycle / Workout / Profile / Measurement<br/>Stats / Nutrition / MacroTarget / Account"]
@@ -249,13 +251,14 @@ Metabase possède sa propre connexion et un utilisateur MongoDB en lecture seule
 
 ## Sources dans le dépôt
 
-- [Configuration et dépendances des conteneurs](../compose.yaml)
-- [Assemblage des services et routes sportives](../training-service/Program.cs)
-- [Build de l’application](../training-service/Dockerfile)
-- [Comptes intégrés](../training-service/Features/Accounts/)
-- [Cycles, repositories et client catalogue](../training-service/Services/)
-- [Fonctionnalités React](../training-web/src/features/)
-- [Catalogue, imports et qualité](../exercise-service/README.md)
-- [Configuration Metabase](../analytics/README.md)
+- [Configuration et dépendances des conteneurs](../infrastructure/docker/compose.yaml)
+- [Assemblage des services et routes sportives](../apps/backend/Program.cs)
+- [Build de l’application](../apps/backend/Dockerfile)
+- [Comptes intégrés](../apps/backend/Features/Accounts/)
+- [Cycles et repositories](../apps/backend/Features/Blocks/)
+- [Client catalogue](../apps/backend/Features/Catalog/CatalogClient.cs)
+- [Fonctionnalités React](../apps/frontend/src/features/)
+- [Catalogue, imports et qualité](../apps/exercise-catalog/README.md)
+- [Configuration Metabase](../infrastructure/metabase/README.md)
 - [Séances composées et copie des programmes](seances-composees.md)
 - [Principes d’architecture](architecture.md)
