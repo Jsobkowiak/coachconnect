@@ -33,7 +33,7 @@ git clone https://github.com/Jsobkowiak/coachconnect.git ~/coachconnect && cd ~/
 ./scripts/prod/init-env.sh <reseau-traefik> <certresolver> [entrypoint]
 
 # 3. PC : envoyer l’export
-scp .local/prod-transfer/*<date>* <user>@51.178.82.212:~/coachconnect/.local/prod-transfer/
+scp .local/prod-transfer/*<date>* <utilisateur>@<vps>:~/coachconnect/.local/prod-transfer/
 
 # 4. VPS : restaurer puis démarrer
 ./scripts/prod/restore-catalog.sh .local/prod-transfer/catalog-<date>.archive.gz .local/prod-transfer/catalog-media-<date>.tar.gz
@@ -62,7 +62,7 @@ git tag v0.1.0 && git push origin v0.1.0     # PC, après CI verte
 ## Administration
 
 - Logs : `docker compose logs -f training-app`
-- Prefect / Metabase (profils non démarrés par défaut) : `ssh -L 4200:127.0.0.1:4200 <user>@51.178.82.212`, puis http://localhost:4200.
+- Prefect / Metabase (profils non démarrés par défaut) : `ssh -L 4200:127.0.0.1:4200 <utilisateur>@<vps>`, puis http://localhost:4200.
 - Restaurer une sauvegarde : `docker compose exec -T training-db pg_restore -U training -d coachconnect_training --clean < .local/backups/training-<date>.dump` (application arrêtée, procédure explicite uniquement).
 
 ## Contrôles après déploiement
