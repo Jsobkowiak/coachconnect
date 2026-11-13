@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.RateLimiting;
+using Microsoft.AspNetCore.HttpOverrides;
 using System.Threading.RateLimiting;
 using System.Text.Json;
 using System.Text.Json.Nodes;
@@ -37,6 +38,15 @@ builder.Services.AddAuthentication(IdentityConstants.ApplicationScheme).AddIdent
 builder.Services.AddAuthorization();
 builder.Services.Configure<SecurityStampValidatorOptions>(o=>o.ValidationInterval=TimeSpan.Zero);
 var secureCookies=builder.Configuration.GetValue("TRAINING_HTTPS",false);
+// Derrière Traefik : client réel (rate limiting) et schéma HTTPS. Le conteneur n'est joignable que par le réseau Docker du proxy.
+var behindProxy=builder.Configuration.GetValue("TRAINING_BEHIND_PROXY",false);
+if(behindProxy)builder.Services.Configure<ForwardedHeadersOptions>(o=>{
+    o.ForwardedHeaders=ForwardedHeaders.XForwardedFor|ForwardedHeaders.XForwardedProto|ForwardedHeaders.XForwardedHost;
+    o.ForwardLimit=1;o.KnownProxies.Clear();o.KnownIPNetworks.Clear();
+    foreach(var network in new[]{"10.0.0.0/8","172.16.0.0/12","192.168.0.0/16"})o.KnownIPNetworks.Add(System.Net.IPNetwork.Parse(network));
+    var hosts=builder.Configuration["TRAINING_ALLOWED_HOSTS"];
+    if(!string.IsNullOrWhiteSpace(hosts))o.AllowedHosts=hosts.Split(',',StringSplitOptions.RemoveEmptyEntries|StringSplitOptions.TrimEntries);
+});
 builder.Services.ConfigureApplicationCookie(o=>{
     o.Cookie.Name="COACHCONNECT_TRAINING_SESSION";o.Cookie.HttpOnly=true;o.Cookie.SameSite=SameSiteMode.Lax;
     o.Cookie.SecurePolicy=secureCookies?CookieSecurePolicy.Always:CookieSecurePolicy.SameAsRequest;
@@ -67,6 +77,7 @@ builder.Services.AddScoped<MacroTargetRepository>(); builder.Services.AddScoped<
 builder.Services.AddScoped<NutritionRepository>(); builder.Services.AddScoped<NutritionService>();
 builder.Services.AddHttpClient<CatalogClient>(http => { http.BaseAddress = new Uri(builder.Configuration["CATALOG_API_URL"] ?? "http://localhost:8001"); http.Timeout = TimeSpan.FromSeconds(8); });
 var app = builder.Build();
+if(behindProxy)app.UseForwardedHeaders();
 app.Use(async (ctx, next) =>
 {
     try { await next(ctx); }

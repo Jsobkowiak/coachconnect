@@ -26,6 +26,11 @@ jobs:
       - run: npm --prefix apps/frontend run build
       - name: Validate Compose without local secrets
         run: docker compose --env-file /dev/null --profile training --profile catalog --profile etl --profile analytics config --quiet
+      - name: Validate production overlay
+        run: docker compose --env-file /dev/null -f compose.yaml -f infrastructure/docker/compose.prod.yaml --profile training --profile catalog --profile analytics config --quiet
+        env:
+          TRAEFIK_NETWORK: proxy
+          TRAEFIK_CERTRESOLVER: letsencrypt
   catalogue:
     runs-on: ubuntu-latest
     steps:
